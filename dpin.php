@@ -6,7 +6,7 @@
                 <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 100px;">
             </div>
             <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">DPIN</h2>
-            <h5 class="text-left font-weight-bold text-uppercase py-1 text-white">DPIN</h5>
+           
         </div>
     </div>
 </div>

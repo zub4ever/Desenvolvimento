@@ -1,10 +1,14 @@
 <?php include("cabecalho.php"); ?>
-<div class=" jumbotron mt-2 d-flex justify-content-center bg-light">
-  <div class="text-black" style="padding: 5px;">
-    <div class="ml-auto mt-auto mr-auto mb-auto d-flex ">
-      <h2 class="text-left font-weight-bold text-uppercase py-1 text-dark">DAIR</h2>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 100px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">DAIR</h2>
+           
+        </div>
     </div>
-  </div>
 </div>
 <div class="container pb-3">
   <div class="row mt-5 mb-5 py-5">
