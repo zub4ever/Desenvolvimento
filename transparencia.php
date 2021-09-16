@@ -5,7 +5,7 @@
             <div class="d-flex justify-content-center">
                 <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
             </div>
-            <h2 class="text-left font-weight-bold text-uppercase py-1 text-dark">Portal da Transparência</h2>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Transparência RBPREV</h2>
         </div>
     </div>
 </div>

@@ -154,6 +154,13 @@ img {
     background-image: -webkit-linear-gradient(45deg, #3d85c6, #3D85C6);
 }
 
+.area-investimentos {
+    background-color: #0094fd;
+    /* background-image: url(images/banner-bg.jpg); */
+    background-image: -webkit-linear-gradient(45deg, #3d85c6, #285175);
+}
+
+
 .area-comunicacao-green {
   background: linear-gradient(280deg, #08611c 35%, rgb(21, 208, 76) 100%);
   background: rgb(4, 150, 74);
