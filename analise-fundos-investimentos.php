@@ -11,7 +11,6 @@
 </div>
 <section style="text-align: center;">
   <div class="container" style="margin-top: 5%; margin-bottom: 10%; background-color: #43a9e012; padding: 50px; width: 100%;">
-    <h2>Análise de  Fundos para Investimentos</h2><br>
     <div class="row">
       <div class="col-lg-12 col-md-12" align="center">
       	<div class="btn-group mt-10" role="group">
