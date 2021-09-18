@@ -2333,7 +2333,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff !important;
+  background: #fff!important;
 }
 
 #header.header-scrolled {
@@ -2445,7 +2445,7 @@ h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #222;
+  color: #151C48;
   font-weight: 400;
   font-size: 13px !important;
   text-transform: uppercase;
@@ -5002,7 +5002,7 @@ animation: algoo 29s ease infinite;
 }
 
 .site-footer {
-  background: linear-gradient(#0058a5 35.53%, #00437e 100%);
+  background: linear-gradient(#003C82 35.53%, #007DC5 100%);
   padding: 45px 5px 20px;
   font-size: 18px;
   line-height: 22px;

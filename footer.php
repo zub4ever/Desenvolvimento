@@ -11,6 +11,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="col-sm-12 col-lg-6">
             <div class="cartone-b area-comunicacao text-white " style="height: 150px; padding: 10px;">
                 <div class="ml-auto mt-auto mr-auto mb-auto">
