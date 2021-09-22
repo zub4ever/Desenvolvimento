@@ -1,8 +1,11 @@
 <?php include("cabecalho.php"); ?>
-<div class="jumbotron d-flex justify-content-center bg-secondary">
+<div class="jumbotron d-flex justify-content-center bg-light">
     <div class="text-black">
-        <div class="ml-auto mt-auto mr-auto mb-auto d-flex ">
-            <h3 class="text-left font-weight-bold text-uppercase text-white">Convênios</h3>
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 100px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Convênios</h2>
         </div>
     </div>
 </div>

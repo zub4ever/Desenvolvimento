@@ -1,12 +1,15 @@
 <?php include("cabecalho.php"); ?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Lei Orgânica</h2>
+        </div>
+    </div>
+</div>
 <div class="container">
-    <ul class="breadcrumb">
-        <li><p>Você está aqui ></p></li>
-        <li><b>Serviços ></b> <span class="divider"></span></li>
-        <li><b>Legislação ></b> <span class="divider"></span></li>
-        <li><b>Lei Orgânica</b> <span class="divider"></span></li>
-    </ul> 
-    <h4 align="center">Lei Orgânica</h4>
 
     <div class="hero-unit">
         <p align="justify" style="text-indent:10mm;">

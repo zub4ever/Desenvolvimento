@@ -1,13 +1,16 @@
 <?php include("cabecalho.php"); ?>
-<div class="d-flex justify-content-center bg-secondary py-4 px-2">
+<div class="jumbotron d-flex justify-content-center bg-light">
     <div class="text-black">
-        <div class="ml-auto mt-auto mr-auto mb-auto d-flex ">
-            <h2 class="text-left font-weight-bold text-uppercase py-4 text-light">Membros do Comitê de Investimentos</h2>
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Membros  do Comitê de Investimentos</h2>
         </div>
     </div>
 </div>
 <div class="container">
-    <h5 align="justify" style="text-indent:10mm;" class="py-5">
+    <h5 align="justify" style="text-indent:10mm;" class="py-2">
     A Portaria nº 037, de 19 de fevereiro de 2021, nomeou os seguintes membros do Comitê de investimentos:</h5>
     <div class="row">
         <table class="table-sm table-bordered">

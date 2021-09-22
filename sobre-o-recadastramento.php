@@ -1,10 +1,13 @@
 <?php include("cabecalho.php"); ?>
-<div class="jumbotron d-flex justify-content-center bg-secondary">
-	<div class="text-black">
-		<div class="ml-auto mt-auto mr-auto mb-auto d-flex ">
-			<h2 class="text-left font-weight-bold text-uppercase text-white">RECADASTRAMENTO</h2>
-		</div>
-	</div>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Recadastramento</h2>
+        </div>
+    </div>
 </div>
 <div class="container py-5">
 	<p class="text-justify" style="text-indent: 70px;">

@@ -1,5 +1,4 @@
 <?php include("cabecalho.php"); ?>
-
 <div class="jumbotron d-flex justify-content-center bg-light">
     <div class="text-black">
         <div class="ml-auto mt-auto mr-auto mb-auto">

@@ -1,10 +1,13 @@
 <?php include("cabecalho.php"); ?>
-<div class=" d-flex justify-content-center bg-light py-5 mb-5">
-	<div class="text-black">
-		<div class="ml-auto mt-auto mr-auto mb-auto d-flex ">
-			<h4 class="text-left font-weight-bold text-uppercase text-dark px-3">Programa de Preparação para Aposentadoria - PPA</h4>
-		</div>
-	</div>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Programa de Preparação para Aposentadoria - PPA</h2>
+        </div>
+    </div>
 </div>
 <div class="container mb-5 text-justify">
 	<p>Desde a criação do Regime Próprio de Previdência Social, o município de Rio Branco vem cuidando dos segurados, por meio da entidade gestora de previdência com informações da carreira e dos direitos previdenciários. Trata-se de valorizar o servidor em sua atividade laboral oferecendo-lhe garantias de uma boa gestão dos recursos previdenciários e dos direitos constitucionais de aposentadoria, haja vista que até dezembro de 2009, todos os servidores eram vinculados ao sistema de trabalho Celetista e ao Sistema Previdenciário ao Regime Geral de Previdência Social.</p>
@@ -16,7 +19,8 @@
 	<p>O trabalho se intensificou a partir de 2019, com a obrigatoriedade de realização do Recadastramento Anual, com orientações diretas aos segurados sobre a importância de ter a base de dados atualizada e com informações previdenciárias, o que reforçou maior aceitação e adesão dos segurados. </p>
 	<p>Atualmente o RBPREV é referência no quesito de informações de planos de cargos, carreira e remuneração e de direitos previdenciários.</p>
 	<p>A ampliação do programa seria intensificada no exercício de 2020, com orientações sobre a Reforma da Previdência, por meio da Emenda Constitucional nº 103, de 2019, o que não fora possível devido à pandemia do Covid-19, mas o RBPREV mesmo de forma virtual está elaborando informativos para que o segurado tenha informações sobre a administração dos recursos e dos direitos previdenciários. </p>
-	<div>
+        <hr>
+        <div>
 		<a href="documentos/PROJETO_DO_PROGRAMA_POUSO_SUAVE.pdf" class="btn btn-warning" style="width: 100%; display: inline; padding: 15px; background-color: #79b8d5; border:none;">Projeto</a>
 		<a href="documentos/CARTILHA_POUSO_SUAVE.pdf" class="btn btn-warning" style="width: 100%; display: inline; padding: 15px; background-color: #79b8d5; border:none;">Cartilha</a>
 		<a href="documentos/planodeacao-preaposentadoria.pdf" class="btn btn-warning" style="width: 100%; display: inline; padding: 15px; background-color: #79b8d5; border:none;">Plano de ação</a>

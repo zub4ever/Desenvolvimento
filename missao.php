@@ -1,4 +1,14 @@
 <?php include("cabecalho.php");?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Missão | Visão | Valores</h2>
+        </div>
+    </div>
+</div>
 <section class="home-about-area section-gap relative">
   <div class="container">
     <div class="">

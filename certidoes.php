@@ -1,14 +1,15 @@
 <?php include("cabecalho.php");?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 100px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Certidões</h2>
+        </div>
+    </div>
+</div>
 <div class="container">
-	<ul class="breadcrumb">
-		<li>
-			<p>Você está aqui > </p>
-		</li>
-		<li><b>Tranparência > </b> <span class="divider"></span></li>
-		<li><b>Certidões</b> <span class="divider"></span></li>
-	</ul>
-
-<h3 align="center">Certidões</h3>
 <hr class="featurette-divider "></br></br>
   <div class="row" align="center">
    <div class="col-lg-12 col-md-12">

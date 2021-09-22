@@ -1,15 +1,20 @@
 <?php include("cabecalho.php"); ?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Portarias</h2>
+        </div>
+    </div>
+</div>
 <div class="container">
-    <ul class="breadcrumb">
-        <li><p>Você está aqui ></p></li>
-        <li><b>Serviços ></b> <span class="divider"></span></li>
-        <li><b>Legislação ></b> <span class="divider"></span></li>
-        <li><b>Portarias</b> <span class="divider"></span></li>
-    </ul> 
+   
 
     <div class="panel panel-primary">
 
-        <h4 class="panel-heading" align="center">Portarias</h4><br>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
@@ -286,4 +291,4 @@
 </div>
 <br>
 <br>
-<?php include("footer.php"); ?>
+<?php include("rodape.php"); ?>

@@ -1,15 +1,15 @@
 <?php include("cabecalho.php"); ?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Resoluções do CAPS</h2>
+        </div>
+    </div>
+</div>
 <div class="container">
-  <div aria-labelledby="btnGroupDrop1" class="breadcrumb">
-    
-    <p>Você está aqui ></p>
-    <b> Institucional ></b> <span class="divider"></span>
-    <b> Conselhos ></b> <span class="divider"></span>
-    <b> Conselho de Administração - CAPS ></b> <span class="divider"></span>
-    <b>Resoluções</b> <span class="divider"></span>
-  </div>
-  <h4 align="center" style="text-decoration: underline;">Resoluções do CAPS</h4>
-  <hr>
   <div align="center">
     <section class="home-about-area-comunicacao section-gap_listas relative">
       <div class="row">
@@ -182,4 +182,5 @@
 </section>
 </div>
 </div>
+<br>
 <?php include("rodape.php"); ?>

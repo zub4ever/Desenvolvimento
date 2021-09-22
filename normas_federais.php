@@ -1,8 +1,14 @@
 <?php include("cabecalho.php"); ?>
-<div class=" d-flex justify-content-center bg-light py-5 mb-5">
+<div class="jumbotron d-flex justify-content-center bg-light">
     <div class="text-black">
-        <div class="ml-auto mt-auto mr-auto mb-auto d-flex ">
-            <h4 class="text-left font-weight-bold text-uppercase text-dark">Legislação federal</h4>
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <div class="d-flex justify-content-center">
+                <h4 class="text-left font-weight-bold text-uppercase py-1 text-white">Legislação Federal</h4>
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Normas Federais</h2>
         </div>
     </div>
 </div>

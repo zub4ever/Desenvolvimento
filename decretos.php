@@ -1,17 +1,16 @@
 <?php include("cabecalho.php"); ?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Decretros</h2>
+        </div>
+    </div>
+</div>
 <div class="container">
-    <ul class="breadcrumb">
-        <li><p>Você está aqui ></p></li>
-        <li><b>Serviços ></b> <span class="divider"></span></li>
-        <li><b>Legislação ></b> <span class="divider"></span></li>
-        <li><b>Legislação Municipal ></b> <span class="divider"></span></li>
-        <li><b>Decretos</b> <span class="divider"></span></li>
-    </ul> 
-
     <div class="panel panel-primary">
-
-        <h4 class="panel-heading" align="center">Decretos</h4>
-        <br>
         <table id="ticket" class="table table-bordered">
             <thead>
                 <tr>                                   
@@ -108,19 +107,19 @@
                         nº 1.794, de 30 de dezembro de 2009 e dá outras providências.
                     </td>                                    
                 </tr>
-                 <tr>
+                <tr>
                     <td align="center" style="padding-top:15px;"><a href="documentos/Decreto_1437-2010_PAPI.doc" target="_blank" alt="Lei 1437/2010">Nº 1437/2010</a></td>
                     <td>Regulamenta o artigo 26 da Lei 1.794, de 30 de dezembro de 2009, cria o Programa de Apoio Profissional Intensivo - PAPI, para apoio e orientação aos servidores municipais readaptados da Administração Direta, Autarquias, Fundações e Poder Legislativo Municipal e dá outras providências.</td>                                    
                 </tr>
                 <tr>
                     <td align="center" style="padding-top:15px;"><a href="documentos/decreto_n_2009_de_2010.pdf" target="_blank" alt="Lei 2009/2010">Nº 2.009/2010</a></td>
                     <td>
-                     Dispõe sobre a constituição e o estabelecimento de normas para o funcionamento
-                     da Junta Médica do Município de Rio Branco.
-                 </td>                                    
-        </tbody>
-    </table>
-</div>
+                        Dispõe sobre a constituição e o estabelecimento de normas para o funcionamento
+                        da Junta Médica do Município de Rio Branco.
+                    </td>                                    
+            </tbody>
+        </table>
+    </div>
 </div>
 <br><br>
 <?php include("rodape.php"); ?>
