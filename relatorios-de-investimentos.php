@@ -20,7 +20,11 @@
                         <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_jan_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Janeiro</a></li>
                         <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_fev_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Fevereiro</a></li>
                         <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_mar_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Março</a></li>
+                        
                         <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_abr_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Abril</a></li>
+                   <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_mai_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Maio</a></li>
+                  <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_jun_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Junho</a></li>
+                    <li><a href="documentos/relatorios_de_investimentos/relatorio_Investimentos_jul_2021.pdf" class="dropdown-item" target="_blank">Relatório Analítico dos Investimentos - Julho</a></li>
                     </ul>
                 </div>
                 <div class="btn-group">

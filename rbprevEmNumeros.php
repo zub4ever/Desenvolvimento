@@ -1,4 +1,15 @@
 <?php include("cabecalho.php"); ?>
+<div class="jumbotron d-flex justify-content-center bg-light">
+    <div class="text-black">
+        <div class="ml-auto mt-auto mr-auto mb-auto">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" width="100px" src="img/logo2.png" alt="" style="width: 90px;">
+            </div>
+            <h2 class="text-left font-weight-bold text-uppercase py-1 text-white">Número RBPREV</h2>
+        </div>
+    </div>
+</div>
+
 <section class="faq-area section-gap">
   <div class="container">
     <div class="row justify-content-center">

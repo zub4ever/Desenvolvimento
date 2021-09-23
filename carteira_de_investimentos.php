@@ -20,6 +20,10 @@
                 <a class="dropdown-item" href="documentos/carteira_investimentos/2021/Carteira_e_Meta_fevereiro.pdf" target="_blank">Fevereiro</a>
                 <a class="dropdown-item" href="documentos/carteira_investimentos/2021/Carteira_e_Meta_marco.pdf" target="_blank">Março</a>
                 <a class="dropdown-item" href="documentos/carteira_investimentos/2021/Carteira_e_Meta_abril.pdf" target="_blank">Abril</a>
+                <a class="dropdown-item" href="documentos/carteira_investimentos/2021/carteiraMaio.pdf" target="_blank">Maio</a>
+                <a class="dropdown-item" href="documentos/carteira_investimentos/2021/carteiraJunho.pdf" target="_blank">Junho</a>
+                <a class="dropdown-item" href="documentos/carteira_investimentos/2021/carteiraJulho.pdf" target="_blank">Julho</a>
+                <a class="dropdown-item" href="documentos/carteira_investimentos/2021/carteiraAgosto.pdf" target="_blank">Agosto</a>
             </div>
         </div>
         <div class="col-sm-12 col-lg-2 mt-2">
