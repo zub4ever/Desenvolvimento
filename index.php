@@ -119,8 +119,8 @@ include('db/consultas.php');
                 </a>
             </div> 
             <div class="carousel-item active">
-                <a href="http://rbprev.riobranco.ac.gov.br/noticias/2021/index.php/2021/09/08/setembro-amarelo-mes-de-prevencao-ao-suicidio/">
-                    <img src="images/septemberYellow.png" class="img-fluid " alt=" Agosto Lilás">
+                <a href="">
+                    <img src="images/outubrorosa.png" class="img-fluid " alt="Outubro rosa">
                 </a>  
             </div>
             <!-- <div class="carousel-item active">
@@ -145,64 +145,67 @@ include('db/consultas.php');
     <!-- FIM SLIDE-->
 </section>
 <!-- AREA DE SERVICOS -->
-<section class="service-area section-gap" id="service">
-    <div class="container">
+<br>
+<div class="container">
+    <div class="card text-dark">
+        <div class="container" style="padding-bottom: 20px;">
         <div class="row justify-content-center">
-            <div class="col-md-12 pb-50 header-text text-center">
-                <h1 class="mb-10">Serviços</h1>
-            </div>
+
+            <h2 class="mb-10">Serviços</h2>
+
         </div>
+
         <div class="row">
             <div class="col-lg-2 col-md-6">
-                <div class="single-service">
+                <div class="single-service card">
                     <a href="calendarios.php">
                         <div class="thumb">
-                            <img src="images/calendario.gif"  alt="Calendario de pagamentos" >                  
+                            <img src="images/calendario.gif"  alt="Calendario de pagamentos" title="Calendario de pagamentos">                  
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
-                <div class="single-service">
+                <div class="single-service card">
                     <a href="http://portalcidadao.riobranco.ac.gov.br/contracheque/">
                         <div class="thumb">
-                            <img alt="Contracheque" src="images/contracheque.png">                  
+                            <img alt="Contracheque" src="images/contracheque.png" title="Contracheque">                  
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
-                <div class="single-service">
+                <div class="single-service card">
                     <a href="http://simulacao.rbprev.riobranco.ac.gov.br/">
                         <div class="thumb">
-                            <img alt="Simular Aposentadoria" src="images/o3.jpg">                 
+                            <img alt="Simular Aposentadoria" src="images/simulador.png" title="Simulador de Aposentadoria">                 
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
-                <div class="single-service">
+                <div class="single-service card">
                     <a href="http://aplicacoes.rbprev.riobranco.ac.gov.br/DAP/">
                         <div class="thumb">
-                            <img data-src="images/o4.jpg" alt="DAP" src="images/o4.jpg">                 
+                            <img data-src="images/DAP.png" alt="DAP" src="images/DAP.png" title="Documento de Arrecadação Previdênciária">                 
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
-                <div class="single-service">
+                <div class="single-service card">
                     <a href="documentos/crp.pdf">
                         <div class="thumb">
-                            <img alt="CRP" src="images/o5.jpg" >                 
+                            <img alt="CRP" src="images/crp.png" title="Certificado de Regularidade Previdênciaria">                 
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
-                <div class="single-service">
+                <div class="single-service card">
                     <a href="documentos.php">
                         <div class="thumb">
-                            <img alt="Documentos" src="images/o6.jpg">                 
+                            <img alt="Documentos" src="images/docs.png" title="Documentos para baixar">                 
                         </div>
                     </a>
                 </div>
@@ -210,57 +213,59 @@ include('db/consultas.php');
             <!-- <a href="#" class="trd-btn text-uppercase" align="center" onclick="document.getElementById('sevs').focus()">Outros Serviços</a> -->
         </div>
     </div>
-</section>
+</div>
+    </div>
+<br>
 <!-- FIM DA AREA DE SERVICOS -->
 <div class="container">
     <div class="card text-dark">
-    <div class="container" style="padding-bottom: 20px;">
-        <div class="row justify-content-center">
-            
+        <div class="container" style="padding-bottom: 20px;">
+            <div class="row justify-content-center">
+
                 <h2 class="mb-10">Canais de Comunicação</h2>
-           
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-3">
-                <div class="single-service card">
-                    <a href="atendimento_ao_segurado.php">
-                        <div class="thumb">
-                            <img src="images/1.png" alt="Atendimento" title="Atendimento ao assegurado">                 
-                        </div>
-                    </a>
-                </div>
+
             </div>
-            <div class="col-lg-3 col-md-3">
-                <div class="single-service card">
-                    <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
-                        <div class="thumb">
-                                <!-- <img src="images/p2.png" alt="Ouvidoria">                  -->
-                            <img src="images/2.png" alt="Ouvidoria" title="Ouvidoria">                 
-                        </div>
-                    </a>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="single-service card">
+                        <a href="atendimento_ao_segurado.php">
+                            <div class="thumb">
+                                <img src="images/1.png" alt="Atendimento" title="Atendimento ao assegurado">                 
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-3">
-                <div class="single-service card">
-                    <a href="duvidas-frequentes.php">
-                        <div class="thumb">
-                            <img src="images/3.png" alt="Dúvidas Frequentes" title="Perguntas Frequentes">                 
-                        </div>
-                    </a>
+                <div class="col-lg-3 col-md-3">
+                    <div class="single-service card">
+                        <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
+                            <div class="thumb">
+                                    <!-- <img src="images/p2.png" alt="Ouvidoria">                  -->
+                                <img src="images/2.png" alt="Ouvidoria" title="Ouvidoria">                 
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-3">
-                <div class="single-service card">
-                    <a href="pesquisa_satisfacao.php">
-                        <div class="thumb" >
-                            <img src="images/4.png" alt="Pesquisa de Satisfação" title="Pesquisa de satisfação">                 
-                        </div>
-                    </a>
+                <div class="col-lg-3 col-md-3">
+                    <div class="single-service card">
+                        <a href="duvidas-frequentes.php">
+                            <div class="thumb">
+                                <img src="images/3.png" alt="Dúvidas Frequentes" title="Perguntas Frequentes">                 
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="single-service card">
+                        <a href="pesquisa_satisfacao.php">
+                            <div class="thumb" >
+                                <img src="images/4.png" alt="Pesquisa de Satisfação" title="Pesquisa de satisfação">                 
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div> 
 
 <!-- AREA DE  -->

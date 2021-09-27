@@ -102,7 +102,7 @@
                         <a href="index.php">
                             <img src="images/logo.png" alt="Logo RBPREV" title="Logo RBPREV" />
                         </a>
-                    </div>
+                    </div>                    
                     <nav id="nav-menu-container">
                         <ul class="nav-menu">
                             <li><a href="index.php">Início</a></li>
@@ -222,9 +222,7 @@
 
                                 </ul>
                             </li>
-                            <li>
-                                <div class="gcse-searchbox-only"></div>
-                            </li>	</ul>
+                          	</ul>
 
                     </nav>
                     <!-- #nav-menu-container -->

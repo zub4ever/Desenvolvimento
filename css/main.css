@@ -2256,11 +2256,11 @@ h6 {
 .header-top {
   font-size: 15px;
   padding: 5px;
-  background: linear-gradient(#f6d300 30.53%, #f6d300 100%);
+  background: linear-gradient(#007DC5 30.53%, #003C82 100%);
 }
 
 .header-top a {
-  color: #0e0e0e;
+  color: #f9f9f9;
 }
 
 .header-top ul li {
