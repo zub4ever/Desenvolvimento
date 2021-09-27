@@ -1,4 +1,4 @@
-::-moz-selection {
+th::-moz-selection {
   background-color: #3D85C6;
   color: #fff;
 }
@@ -359,7 +359,7 @@ div.table-title {
 
 th {
   color: #ffffff;
-  background: #3D85C6;
+  background: #007bff;
   border-bottom: 4px solid #9ea7af;
   border-right: 1px solid #343a45;
   font-size: 15px;

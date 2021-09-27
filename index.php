@@ -30,7 +30,7 @@ include('db/consultas.php');
     });
 
 </script>
-<script type="text/javascript" src="js/funcaoIndex.js?rndstr=<%= getRandomStr() %>"></script>
+
 <div class="modal fade" id="avisoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -157,7 +157,7 @@ include('db/consultas.php');
                 <div class="single-service">
                     <a href="calendarios.php">
                         <div class="thumb">
-                            <img src="images/o1.jpg"  alt="Calendario de pagamentos" >                  
+                            <img src="images/calendario.gif"  alt="Calendario de pagamentos" >                  
                         </div>
                     </a>
                 </div>
@@ -166,7 +166,7 @@ include('db/consultas.php');
                 <div class="single-service">
                     <a href="http://portalcidadao.riobranco.ac.gov.br/contracheque/">
                         <div class="thumb">
-                            <img alt="Contracheque" src="images/o2.jpg">                  
+                            <img alt="Contracheque" src="images/contracheque.png">                  
                         </div>
                     </a>
                 </div>
@@ -212,39 +212,30 @@ include('db/consultas.php');
     </div>
 </section>
 <!-- FIM DA AREA DE SERVICOS -->
-<section class="home-about-area-comunicacao section-gap relative" style="
-         border-radius: 70px;">
+<div class="container">
+    <div class="card text-dark">
     <div class="container" style="padding-bottom: 20px;">
         <div class="row justify-content-center">
-            <div class="col-md-12 pb-50 header-text text-center">
-                <h1 class="mb-10">Canais de Comunicação</h1>
-            </div>
+            
+                <h2 class="mb-10">Canais de Comunicação</h2>
+           
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-3">
                 <div class="single-service card">
                     <a href="atendimento_ao_segurado.php">
                         <div class="thumb">
-                            <img src="images/p0.png" alt="Atendimento">                 
+                            <img src="images/1.png" alt="Atendimento" title="Atendimento ao assegurado">                 
                         </div>
                     </a>
                 </div>
             </div>
-            <!-- <div class="col-lg-3 col-md-3">
-                    <div class="single-service">
-                            <a href="fale-conosco.php">
-                                    <div class="thumb">
-                                            <img src="images/p1.png" alt="Fale conosco">                 
-                                    </div>
-                            </a>
-                    </div>
-                    </div> -->
             <div class="col-lg-3 col-md-3">
                 <div class="single-service card">
                     <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
                         <div class="thumb">
                                 <!-- <img src="images/p2.png" alt="Ouvidoria">                  -->
-                            <img src="images/Banner_ouvidoria.png" alt="Ouvidoria">                 
+                            <img src="images/2.png" alt="Ouvidoria" title="Ouvidoria">                 
                         </div>
                     </a>
                 </div>
@@ -253,30 +244,29 @@ include('db/consultas.php');
                 <div class="single-service card">
                     <a href="duvidas-frequentes.php">
                         <div class="thumb">
-                            <img src="images/p3.png" alt="Dúvidas Frequentes">                 
+                            <img src="images/3.png" alt="Dúvidas Frequentes" title="Perguntas Frequentes">                 
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3">
-                <div class="single-service card" style=" max-height: 74%;
-                     justify-content: center;">
+                <div class="single-service card">
                     <a href="pesquisa_satisfacao.php">
                         <div class="thumb" >
-                            <img src="images/pesq_stf.png" alt="Pesquisa de Satisfação" >                 
+                            <img src="images/4.png" alt="Pesquisa de Satisfação" title="Pesquisa de satisfação">                 
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div> 
-</section>
-<!-- AREA DE  -->
 
+<!-- AREA DE  -->
 <div class="container">
     <div class="row">
-        <div class="col-lg-6 py-2">
+        <div class="col-lg-6 py-3">
             <span><h3>
                     <?php while ($dado = mysqli_fetch_array($folhapagto)) { ?>
                         Resumo da folha - <?php
@@ -320,86 +310,157 @@ include('db/consultas.php');
                         </tr>
                         <tr>
                             <th scope="row">Total FPREV</th>
-                            <td class="text-left text-warning"><?php echo utf8_encode($dado['qtd_total_fprev']); ?></td>
-                            <td class="text-left text-warning"><?php echo emReais($dado['val_total_fprev']); ?></td>
+                            <td class="text-left text-dark"><?php echo utf8_encode($dado['qtd_total_fprev']); ?></td>
+                            <td class="text-left text-danger"><?php echo emReais($dado['val_total_fprev']); ?></td>
 
                         </tr>  
                         <tr>
                             <th scope="row">Total FFIN</th>
-                            <td class="text-left text-warning"><?php echo utf8_encode($dado['qtd_total_ffin']); ?></td>
-                            <td class="text-left text-warning"><?php echo emReais($dado['val_total_ffin']); ?></td>
+                            <td class="text-left text-dark"><?php echo utf8_encode($dado['qtd_total_ffin']); ?></td>
+                            <td class="text-left text-danger"><?php echo emReais($dado['val_total_ffin']); ?></td>
 
                         </tr>
                     </tbody>
                 </table>
             <?php } ?>
         </div>
-<div class="container py-5">
-    <div id="chartDiv" style="max-width: 100%;height: 210px;margin: 0px auto;">
-</div>
-    </div>
-</div>
-
-<section>
-    <div class="container">
-        <div class="title text-center">
-            <h2 class="mb-10 text-dark">Últimas Notícias</h2>
-        </div>
-        <br>
-        <div class="row">
-            <p align="justify" style="text-indent:10mm;">
+        <div class="col-lg-6 mt-2">
             <div class="container">
-                <div class="row">
-                    <?php while ($query->have_posts()): $query->the_post(); ?>
-                        <div class="col-lg-4 col-md-12 single-blog">
-                            <div class="thumb card">
-                                <?php the_post_thumbnail(); ?>       
-                            </div>
-                            <p class="meta"><?php the_time("d/m/Y"); ?></p>
-                            <a href="<?php the_permalink(); ?>">
-                                <h5 align="justify text-uppercase"><?php the_title(); ?></h5>
-                            </a>
+                <h2>Resumo Custo total 2021</h2><br>
+                <table class="table">
+                    <?php while ($dados = mysqli_fetch_array($somaTotal2021)) { ?>
+                        <thead class="thead-primary">
+                            <tr>
+                                <th>Aposentadorias FFIN </th>
+                                <th>Aposentadorias FPREV</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><?php echo emReaisAno($dados['val_total_ffin2021']); ?></td>
+                                <td><?php echo emReaisAno($dados['val_total_fprev2021']); ?></td>
+                            </tr>
+                        </tbody>
+                    <?php } ?>
+                </table>  
+            </div>
+            <div class="container">
+                <h2>Outras informações</h2><br>
+                <div class="card bg-primary">
+                    <a href="numeros_outros_meses.php" class="card-link">
+                        <div class="card-body text-center">
+                            <p class="card-text"><font color="#fff">Informações de outros meses</font></p>
                         </div>
-                    <?php endwhile; ?>
-                    <script type="text/javascript">$("img").addClass("img-fluid");</script>
-                    <hr><br>
+                    </a>
+                </div><br>
+                <div class="card bg-primary">
+                    <a href="rbprevEmNumeros.php" class="card-link">
+                        <div class="card-body text-center">
+                            <p class="card-text"><font color="#fff">RBPREV em Números</font></p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            </p>
-            <hr>
         </div>
-        <div class="col-md-12 theme-avisos text-center">
-            <a href="http://rbprev.riobranco.ac.gov.br/noticias/" class="primary-btn header-btn text-uppercase mt-10  text-center" align="center">Notícias Anteriores</a>
-        </div>
-    </div>
-</section>
-<section class="container" style="padding: 150px 0">
-    <div class="col-md-12 theme-avisos">
-        <h2 class="title title-divulgacao text-center"><span class="text-dark">OUTROS LINKS</span></h2>
-    </div>
-    <div class="links-sistemas">
-        <div class="links-divulga text-center">
-            <a href="http://riobranco.ac.gov.br/" title="Portal da Prefeitura de Rio Branco" target="_blank">
-                <img class="on-contrast-force-gray" src="./img/icones-links/pmrb.png" alt="Portal da Prefeitura de Rio Branco" height="100px"></a>
-            <a href="http://www.previdencia.gov.br/noticias/" title="Secretaria de Previdência" target="_blank">
-                <img class="on-contrast-force-gray" src="./img/icones-links/secretaria-prev.png" alt="Secretaria de Previdência" height="100px"></a>
-            <a href="https://www.riobranco.ac.leg.br/" title="Câmara Municipal" target="_blank">
-                <img class="on-contrast-force-gray" src="./img/icones-links/camara-mun.png" alt="Câmara Municipal" height="100px"></a>
-            <a href="http://diario.ac.gov.br/" title="Diário Oficial" target="_blank">
-                <img class="on-contrast-force-gray" src="./img/icones-links/diario.png" alt="Diário Oficial"  height="100px"></a>
-            <a href="https://cadprev.previdencia.gov.br/" title="CADPREV">
-                <img class="on-contrast-force-gray" src="./img/icones-links/cadprev.png" alt="CADPREV"  height="100px"></a>
-            <a href="https://www.inss.gov.br/" title="INSTITUTO NACIONAL DO SEGURO SOCIAL">
-                <img class="on-contrast-force-gray" src="./img/icones-links/inss.png" alt="INSTITUTO NACIONAL DO SEGURO SOCIAL" height="100px"></a>
-            <a href="http://www.tce.ac.gov.br/" title="TCE-AC" target="_blank">
-                <img class="on-contrast-force-gray" src="./img/icones-links/tce.png" alt="TCE-AC" height="100px"></a>
-            <a href="sistemas.php" title="Sistemas internos" target="_blank">
-                <img class="on-contrast-force-gray" src="./img/icones-links/sistemas.png" alt="Sistemas internos" height="100px"></a>
-        </div>
-    </div>
-</section>
-<!-- FIM Aposentadorias -->        
+        <section>
+            <div class="container">
+                <div class="title text-center">
+                    <h2 class="mb-10 text-dark">Últimas Notícias</h2>
+                </div>
+                <br>
+                <div class="row">
+                    <p align="justify" style="text-indent:10mm;">
+                    <div class="container">
+                        <div class="row">
+                            <?php while ($query->have_posts()): $query->the_post(); ?>
+                                <div class="col-lg-4 col-md-12 single-blog">
+                                    <div class="thumb card">
+                                        <?php the_post_thumbnail(); ?>       
+                                    </div>
+                                    <p class="meta"><?php the_time("d/m/Y"); ?></p>
+                                    <a href="<?php the_permalink(); ?>">
+                                        <h5 align="justify text-uppercase"><?php the_title(); ?></h5>
+                                    </a>
+                                </div>
+                            <?php endwhile; ?>
+                            <script type="text/javascript">$("img").addClass("img-fluid");</script>
+                            <hr><br>
+                        </div>
+                    </div>
+                    </p>
+                    <hr>
+                </div>
+                <div class="col-md-12 theme-avisos text-center">
+                    <a href="http://rbprev.riobranco.ac.gov.br/noticias/" class="primary-btn header-btn text-uppercase mt-10  text-center" align="center">Notícias Anteriores</a>
+                </div>
+            </div>
+        </section>
+        <section class="container" style="padding: 150px 0">
+            <div class="col-md-12 theme-avisos">
+                <h2 class="title title-divulgacao text-center"><span class="text-dark">OUTROS LINKS</span></h2>
+            </div>
+            <div class="links-sistemas">
+                <div class="links-divulga text-center">
+                    <a href="http://riobranco.ac.gov.br/" title="Portal da Prefeitura de Rio Branco" target="_blank">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/pmrb.png" alt="Portal da Prefeitura de Rio Branco" height="100px"></a>
+                    <a href="http://www.previdencia.gov.br/noticias/" title="Secretaria de Previdência" target="_blank">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/secretaria-prev.png" alt="Secretaria de Previdência" height="100px"></a>
+                    <a href="https://www.riobranco.ac.leg.br/" title="Câmara Municipal" target="_blank">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/camara-mun.png" alt="Câmara Municipal" height="100px"></a>
+                    <a href="http://diario.ac.gov.br/" title="Diário Oficial" target="_blank">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/diario.png" alt="Diário Oficial"  height="100px"></a>
+                    <a href="https://cadprev.previdencia.gov.br/" title="CADPREV">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/cadprev.png" alt="CADPREV"  height="100px"></a>
+                    <a href="https://www.inss.gov.br/" title="INSTITUTO NACIONAL DO SEGURO SOCIAL">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/inss.png" alt="INSTITUTO NACIONAL DO SEGURO SOCIAL" height="100px"></a>
+                    <a href="http://www.tce.ac.gov.br/" title="TCE-AC" target="_blank">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/tce.png" alt="TCE-AC" height="100px"></a>
+                    <a href="sistemas.php" title="Sistemas internos" target="_blank">
+                        <img class="on-contrast-force-gray" src="./img/icones-links/sistemas.png" alt="Sistemas internos" height="100px"></a>
+                </div>
+            </div>
+        </section>
+        <!-- FIM Aposentadorias -->        
 
-<?php include("rodape.php"); ?>
+        <?php include("rodape.php"); ?>
 
+        <script type="text/javascript" src="js/funcaoIndex.js?rndstr=<%= getRandomStr() %>"></script>
+        <script type="text/javascript">
+                                var format = new Intl.NumberFormat('pt-BR', {
+                                    style: 'currency',
+                                    currency: 'BRL'
+                                });
+                                var tempData = new Array();
+                                var meses = new Array("Janeiro", "Fevereiro", "Marco", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro", "Décimo");
+                                var element = document.getElementById('dados');
 
+                                (async function () {
+                                    var response = await fetch('http://rbprev.riobranco.ac.gov.br/db/api.php');
+                                    var myData = await response.json();
+
+                                    myData.map((data) => {
+                                        if (data["ano"] == 2021) {
+                                            tempData.push(data);
+                                        }
+                                    });
+                                    for (data of tempData) {
+
+                                        element.innerHTML += `
+                                <tr>
+                                <td class="mes" headers="h"><b>${meses[parseInt(data.mes) - 1]}</b></td>
+                                <td headers="e e2" style="text-align:center;">${data.qtd_aposentadorias_fprev}</td>
+                                <td class="aposentadorias a20" headers="e ef" style="text-align:right;" id="val_apo_fprev">${format.format(data.valor_aposentadorias_fprev)}</td>
+                                <td headers="p p1" style="text-align:center;" >${data.qtd_pensionistas_fprev}</td>
+                                <td class="pensoes p20" headers="p p2" style="text-align:right;">${format.format(data.valor_pensoes_fprev)}</td>
+                                </tr>`
+                                    }
+                                })();
+                                setTimeout(() => {
+                                    $('.ca20').text(somarLinhas('.a20'));
+                                    $('.cp20').text(somarLinhas('.p20'));
+                                    aposPensChart()
+                                }, 1000);
+                                //
+        </script>
+
+        <style type="text/css">#brandingLogo {display: none;}</style>

@@ -1,4 +1,5 @@
 <?php
+
 include('connect.php');
 include('db/funcoes.php');
 
@@ -9,7 +10,6 @@ AND contrato.cargo_id = cargo.id AND orgao.id = contrato.orgao_id AND regra.id =
 
 $apoConcedidas = mysqli_query($con, $apoConcedidasQ) or die(mysqli_error());
 // ----------------------------------------------------------------------------------------------------------------//
-
 // ---------------------------------------PENSÕES CONCEDIDAS-------------------------------------------------------//
 
 $penConcedidasQ = "SELECT 
@@ -29,8 +29,6 @@ WHERE
 
 $penConcedidas = mysqli_query($con, $penConcedidasQ) or die(mysqli_error());
 //-----------------------------------------------------------------------------------------------------------------//
-
-
 // ---------------------------------------FOLHA DE PAGAMENTOS------------------------------------------------------//
 $folhapagtoQ = "SELECT 
     `qtdAposentadoFffin` AS qtd_apo_ffin,
@@ -74,4 +72,14 @@ WHERE
 
 $folhapagtod = mysqli_query($con, $folhapagtoDQ) or die(mysqli_error());
 
+
+$somaTotal = "SELECT
+`qtdTotalFfin` AS qtd_total_ffin,
+    `qtdTotalFprev` AS qtd_total_fprev,
+    SUM(`valorTotalFprev`) AS val_total_fprev2021,
+    SUM(`valorTotalFfin`) AS val_total_ffin2021 FROM folhapagamento
+    WHERE ano = 2021;";
+
+
+$somaTotal2021 = mysqli_query($con, $somaTotal) or die(mysqli_error());
 ?>

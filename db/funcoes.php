@@ -16,4 +16,10 @@ function data($data){
     return date("d/m/Y", strtotime($data));
 }
 
+function emReaisAno($dados){
+   	return 'R$ '.utf8_encode(number_format($dados, 2,",","."));
+} 
+
+
+
 ?>
