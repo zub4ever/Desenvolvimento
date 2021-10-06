@@ -3,15 +3,15 @@ include("cabecalho.php");
 include('db/consultas.php');
 // Include WordPress
 
-define('WP_USE_THEMES', false);
-require('./noticias/2021/wp-load.php');
-$query = new WP_Query(array(
-    'posts_per_page' => 3,
-    'no_found_rows' => true,
-        ));
-//
-// Define quantos posts serão exibidos
-query_posts('showposts=3');
+/* define('WP_USE_THEMES', false);
+  require('./noticias/2021/wp-load.php');
+  $query = new WP_Query(array(
+  'posts_per_page' => 3,
+  'no_found_rows' => true,
+  ));
+  //
+  // Define quantos posts serão exibidos
+  query_posts('showposts=3'); */
 ?>
 
 <script type="text/javascript">
@@ -45,6 +45,8 @@ query_posts('showposts=3');
         </div>
     </div>
 </div>	
+
+
 <!--<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
         <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -72,6 +74,7 @@ query_posts('showposts=3');
             <li data-target="#slideshow" data-slide-to="0" class="active"></li>
             <li data-target="#slideshow" data-slide-to="1"></li>
             <li data-target="#slideshow" data-slide-to="2"></li>
+            <li data-traget="#slideshow" data-slide-to="3"></li>
         </ul>
         <!-- O slideshow -->
         <div class="carousel-inner">
@@ -103,7 +106,7 @@ query_posts('showposts=3');
                     </a>
                     </div>-->
 
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <a href="http://riobranco.ac.gov.br/" target="_blank">
                     <img src="images/prefeitura_banner.png" class="img-fluid " alt="Prefeitura de Rio Branco">
                 </a>  
@@ -118,16 +121,13 @@ query_posts('showposts=3');
                     <img src="images/Banner_Cedula_C.png"  alt="Cedula C" class="img-fluid" />
                 </a>
             </div> 
-            <div class="carousel-item active">
-                <a href="">
-                    <img src="images/septemberYellow.png" class="img-fluid " alt="Outubro rosa">
-                </a>  
-            </div>
+
             <!-- <div class="carousel-item active">
                     <a href="outubro_rosa.php" target="_blank">
                     <img src="images/outubro_rosa.png" class="img-fluid " alt="Outubro rosa">
                     </a>  
             </div> -->
+
             <!-- <div class="carousel-item active">
                     <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
                     <img src="images/Banner_ouvidoria-rbr.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
