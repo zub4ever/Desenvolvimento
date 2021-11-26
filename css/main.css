@@ -65,7 +65,19 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+.top {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #eece16;
+    background-image: linear-gradient(
+90deg, #eece16 0%, #7caa37 35%, #7caa37 65%, #eece16 100%);
+    padding: 2px 0 0;
+    z-index: 100;
+}
 select {
   display: block;
 }
