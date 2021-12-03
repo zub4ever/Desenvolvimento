@@ -33,7 +33,7 @@
         <meta http-equiv="cache-control" content="max-age=0" />
 
         <!-- Titulo -->
-        <title>RBPREV - Rio Branco Previdência</title>
+        <title>RBPREV </title>
         <!-- Fontes e Icones ================================= -->
 
         <script src="js/jquery-3.3.1.js"></script>
@@ -72,14 +72,7 @@
                                                                      right: -10px;
                                                                      top: 0;
                                                                      "></a>
-        <a id="cert-img" href="documentos/rpps_pro_gestao.pdf"><img src="images/certificado-pro-gestao.png" id="cert-img" style="
-                                                                    z-index: 1000;
-                                                                    float: right;
-                                                                    width: 120px;
-                                                                    position: fixed;
-                                                                    right: -10px;
-                                                                    top: 0;
-                                                                    "></a>
+      
         <header id="header" id="home">
             <div class="header-top" id="ht" >
                 <div class="container">
@@ -97,7 +90,7 @@
                 </div>
             </div>
             <div class="container main-menu">
-                <div class="row align-items-center justify-content-between d-flex">
+                <div class="row">
                     <div id="logo">
                         <a href="index.php">
                             <img src="images/logo.png" alt="Logo RBPREV" title="Logo RBPREV" />

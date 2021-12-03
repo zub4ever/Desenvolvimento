@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$db   = "sisap_web";
+$db   = "rbprev_instituto";
 $user = "root";
 $pass = "";
 
