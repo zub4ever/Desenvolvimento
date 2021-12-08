@@ -36,22 +36,7 @@
         <hr>
     </div>
     <div class="container">
-        <a id="cert-imge" href="http://rbprev.riobranco.ac.gov.br/noticias/2021/index.php/2021/08/23/rbprev-recebe-selo-do-programa-nacional-de-prevencao-a-corrupcao-pnpc/"><img src="images/programa-de-prevencao-corrupcao.png" id="cert-img" style="
-                                                                                                                                                                                  z-index: 1000;
-                                                                                                                                                                                  float: right;
-                                                                                                                                                                                  width: 85px;
-                                                                                                                                                                                  position: fixed;
-                                                                                                                                                                                  right: 105px;
-                                                                                                                                                                                  top: 15px;
-                                                                                                                                                                                  "></a>
-        <a id="cert-img" href="documentos/CertificadoGreenCarbon.pdf"><img src="img/greenCarbon.PNG" id="cert-img" style="
-                                                                           z-index: 1000;
-                                                                           float: right;
-                                                                           width: 85px;
-                                                                           position: fixed;
-                                                                           right: 202px;
-                                                                           top: 15px;
-                                                                           "></a>
+    
         <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
                 <p class="copyright-text">Copyright &copy; 2021
