@@ -74,27 +74,27 @@
         <div class="cards">
             <div class="contents">
                 <h2 class="titles">CONTRACHEQUE</h2>
-                <p class="copys">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+                <p class="copys">Emissão de contracheque</p>
                 <button class="btns">Ver mais</button>
             </div>
         </div>
         <div class="cards">
             <div class="contents">
-                <h2 class="titles">Duvidas</h2>
+                <h2 class="titles">Caléndário</h2>
                 <p class="copys">Plan your next beach trip with these fabulous destinations</p>
                <button class="btns">Ver mais</button>
             </div>
         </div>
         <div class="cards">
             <div class="contents">
-                <h2 class="title">Regras de aposentadorias</h2>
-                <p class="copy">It's the desert you've always dreamed of</p>
-                <button class="btn">Ver mais</button>
+                <h2 class="titles">DAP</h2>
+                <p class="copys">It's the desert you've always dreamed of</p>
+                <button class="btns">Ver mais</button>
             </div>
         </div>
         <div class="cards">
             <div class="contents">
-                <h2 class="titles">Requerimentos</h2>
+                <h2 class="titles">CRP</h2>
                 <p class="copys">Seriously, straight up, just blast off into outer space today</p>
                 <button class="btns">Ver mais</button>
             </div>
