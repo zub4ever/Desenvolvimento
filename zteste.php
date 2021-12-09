@@ -7,6 +7,7 @@
     <script src="js/index/teste_modal.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
@@ -70,170 +71,91 @@
         <!-- FIM SLIDE-->
     </section>
     <!-- Fim carousel -->
+    <br>
+    <h3 class='text-center'>Serviços</h3>
     <main class="page-contents">
         <div class="cards">
             <div class="contents">
-                <h2 class="titles">CONTRACHEQUE</h2>
+                <h1 class="titles">Contracheque</h1>
                 <p class="copys">Emissão de contracheque</p>
                 <button class="btns">Ver mais</button>
             </div>
         </div>
         <div class="cards">
             <div class="contents">
-                <h2 class="titles">Caléndário</h2>
-                <p class="copys">Plan your next beach trip with these fabulous destinations</p>
-               <button class="btns">Ver mais</button>
+                <h2 class="titles">Calendário</h2>
+                <p class="copys">Calendário de reuniões dos conselhos e pagamentos</p>
+                <button class="btns">Ver mais</button>
             </div>
         </div>
         <div class="cards">
             <div class="contents">
                 <h2 class="titles">DAP</h2>
-                <p class="copys">It's the desert you've always dreamed of</p>
+                <p class="copys">Guia de arrecadção previdenciária</p>
                 <button class="btns">Ver mais</button>
             </div>
         </div>
+
         <div class="cards">
             <div class="contents">
-                <h2 class="titles">CRP</h2>
-                <p class="copys">Seriously, straight up, just blast off into outer space today</p>
+                <h2 class="titles">Cédula C</h2>
+                <p class="copys">Emitir cédula para IR</p>
                 <button class="btns">Ver mais</button>
             </div>
         </div>
     </main>
-
-
-
-    <!--  
-    <br>
-                <div class="row">
-                    <div class="col-lg-1 col-md-1"></div>
-                    <div class="col-lg-2 col-md-2">
-                        <div class="card text-center" style="width: 20rem;">
-                            <div class="card-body">
-    
-                                <img src="images/IconsIndex/contracheque2.png" alt="alt"/>
-                                <a href="#" class="btn btn-primary">Clique aqui!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2">
-                        <div class="card text-center" style="width: 20rem;">
-                            <div class="card-body">
-    
-                                <img src="images/IconsIndex/calendario2.png" alt="alt"/>
-                                <a href="#" class="btn btn-primary">Clique aqui!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2">
-                        <div class="card text-center" style="width: 20rem;">
-                            <div class="card-body">
-                                <img src="images/IconsIndex/simulador2.png" alt="alt"/>
-                                <a href="#" class="btn btn-primary">Clique aqui!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2">
-                        <div class="card text-center" style="width: 20rem;">
-                            <div class="card-body">
-                                <img src="images/IconsIndex/simulador2.png" alt="alt"/>
-                                <a href="#" class="btn btn-primary">Clique aqui!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2">
-                        <div class="card text-center" style="width: 20rem;">
-                            <div class="card-body">
-                                <img src="images/IconsIndex/crp2.png" alt="alt"/>
-                                <a href="#" class="btn btn-primary">Clique aqui!</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-    
-    </div>
-    
-    -->
-
+    <!--INicio canais de comunicação-->
     <div class="container px-4 py-5" id="custom-cards">
-        <!-- Inicio -->
-        <div class="row">
+    <div class="row">
+        <div class="col-lg-3">
+            <!-- Inicio do Teste -->
+            <div class="card_comunicacao">
+                <div class="card-image_comunicacao"></div>
+                <div class="card-text_comunicacao">
 
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-8 col-lg-6">
-                        <!-- Section Heading-->
-                        <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                            <h3>Canais de comunicação</h3>
-                            <div class="line"></div>
-                        </div>
-                    </div>
+                    <h2>Atendimento</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
                 </div>
-                <div class="row">
-                    <!-- Single Advisor-->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                            <!-- Team Thumb-->
-                            <div class="advisor_thumb"><img src="images/IconsIndex/atendimento.png" alt="">
-                                <!-- Social Info-->
-                                <div class="social-info"><a href="#"><i class="fa fa-phone-square"></i></a></div>
-                            </div>
-                            <!-- Team Details-->
-                            <div class="single_advisor_details_info">
-                                <h6>Telefone e e-mails para contato</h6>
-                                <p class="designation">Atendimento ao assegurado</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Advisor-->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                            <!-- Team Thumb-->
-                            <div class="advisor_thumb"><img src="images/IconsIndex/duvidas.png" alt="">
-                                <!-- Social Info-->
-                                <div class="social-info"><a href="#"><i class="fa fa-question-circle"></i></a></div>
-                            </div>
-                            <!-- Team Details-->
-                            <div class="single_advisor_details_info">
-                                <h6>Principais dúvidas</h6>
-                                <p class="designation">Dúvidas frequentes</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Advisor-->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            <!-- Team Thumb-->
-                            <div class="advisor_thumb"><img src="images/IconsIndex/regras.png" alt="">
-                                <!-- Social Info-->
-                                <div class="social-info"><a href="#"><i class="fa fa-search"></i></a></div>
-                            </div>
-                            <!-- Team Details-->
-                            <div class="single_advisor_details_info">
-                                <h6>Cartilhas para conferência</h6>
-                                <p class="designation">Regras para a aposentadoria</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Advisor-->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                            <!-- Team Thumb-->
-                            <div class="advisor_thumb"><img src="images/IconsIndex/requerimentos.png" alt="">
-                                <!-- Social Info-->
-                                <div class="social-info"><a href="#"><i class="fa fa-print"></i></a></div>
-                            </div>
-                            <!-- Team Details-->
-                            <div class="single_advisor_details_info">
-                                <h6>Requerimentos para solicitar serviços</h6>
-                                <p class="designation">Requerimentos</p>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card_comunicacao">
+                <div class="card-image_comunicacao card2"></div>
+                <div class="card-text_comunicacao card2">
+
+                    <h2>Dúvidas</h2>
+                    <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
+                </div>       
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <!-- card3 -->    
+            <div class="card_comunicacao">
+                <div class="card-image_comunicacao card3"></div>
+                <div class="card-text_comunicacao card3">
+
+                    <h2>Regras</h2>
+                    <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
                 </div>
-            </div>   
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card_comunicacao">
+                <div class="card-image_comunicacao card4"></div>
+                <div class="card-text_comunicacao card4">
+                    
+                    <h2>Requerimentos</h2>
+                    <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                </div>
+
+            </div>
         </div>
     </div>
+</div>
+    
+    
+    
     <!--inICIO DO CAROUSEL -->
     <div class ="row">
         <div class="container">
@@ -289,6 +211,13 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <a href="http://www.rbprev.riobranco.ac.gov.br/sistemas.php">
+                                    <img src="images/IconsIndex/sistemas.png" alt="alt"/>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <button class="btn btn-primary leftLst"><</button>
                     <button class="btn btn-primary rightLst">></button>
@@ -297,40 +226,38 @@
         </div>
     </div>
     <!-- FIM CAROUSEL -->
-    <div class="container px-4 py-5" id="custom-cards">
-        <div class="card text-white bg-primary mb-3">
-            <div class="card-header text-center">RBPREV EM NÚMEROS
-            </div>
-            <div class="card-body">       
-                <div class="col-7 col-lg-7">
-                    <img src="images/IconsIndex/rbprevnumber.png" alt="alt"/>
-                </div>                                           
-                <div class="card border-primary mb-3">
-                    <div class="card-body text-primary">
-                        <p class="card-text text-justify">
-                            O RBPREV em números traz informações sobre o Regime Próprio de Previdência do Município de Rio Branco. A publicação apresenta informações referentes às atividades desenvolvidas pelo RBPREV na gestão dos Fundos Previdenciário e Financeiro, tanto concernente às concessões dos benefícios previdenciários quanto à gestão financeira e meta atuarial.               
-                        </p>
-                    </div>
-                </div>
-                <br><br><br>
-                <div class="card bg-dark">
-                    <a href="rbprevEmNumeros.php" class="card-link">
-                        <div class="card-body text-center">
-                            <p class="card-text"><font color="#fff">RBPREV em Números</font></p>
+    <!-- inicio -->
+    <div class="bg-image" style=" background-image: url('https://lh3.googleusercontent.com/S70mUfNVAso-xiZbOdiTitEmwsSfU0HVMKJsBFaCc3vcZtgiSgptSvUP39tS12Mf-_zNVMb3UulMth0MBvX49mk_tZyvBrUmRuHN0puqd9N0kDpTn9o5HBTDm2T53Tw1JzyWFkiCGGh5MuLOgCAj-nn0SUZfYITv3D8um440JDsaEOZ9uyPQThtPZ6mbmQKoG6RcIaM99pSfNIv5VGEeVNA6i8ru_p6Do8AEADhPy1dLCtoKPDlBa1womMr8N-XPhJWH0Cj7lCXMHHElj1e_zcuP6pfHoyTpR11QcsHtiMaXRn1TF7PTj1zDr-cQ-NJutWkvRZIPzxRuDsaoV4Ah_mTEhWRwKAqAwNZRBX0tEexkRmotuBmJtfS8T-OGraxfXh5Ab6gkGoFf_1Vq38asEdnk5PKKpCk1QIJir0HAM42bjGfTE_ZVLwF5QOxmoAKlnXLcEOXXvQ4HADm3Ziv-dF43coueaYiIKlQZ3GEjqKRqmooIgIlMx3yrSL_TVzZueV4WIJY8xfpySdpiNYQQJY04FUoWrMdpe8O3QW6BEq82tHhOjKGGtRqWfYxlbmygAo84-JKMUKE323tvG7omMNFMZ2Bki1KTjZGe5zFdfUqxZy2J-ouWPQUap__N7Up6CQcbGcxQqTRGsmb8k548L74NfGhPVj1KHpzTcoVvuYuKE3o_A1K4bM404fzFGitsoDXX7UZ458OhhSucrpdRr8oL9A=w1440-h581-no?authuser=0');
+         height: 420px;">
+        <div class="container px-1 py-1" id="custom-cards">        
+            <div class="card-body">
+                <h3 class="text-center text-white">RBPREV NÚMEROS</h3>
+                <div class="card-body">       
+                    <div class="col-6 col-lg-6">
+                        <img src="images/IconsIndex/rbprevnumber.png" alt="alt"/>
+                    </div>                                           
+                    <div class="card border-primary mb-3">
+                        <div class="card-body text-primary">
+                            <p class="card-text text-justify">
+                                O RBPREV em números traz informações sobre o Regime Próprio de Previdência do Município de Rio Branco. A publicação apresenta informações referentes às atividades desenvolvidas pelo RBPREV na gestão dos Fundos Previdenciário e Financeiro, tanto concernente às concessões dos benefícios previdenciários quanto à gestão financeira e meta atuarial.               
+                            </p>
                         </div>
-                    </a>
+                    </div>
+                    <br>
+                    <div class="card bg-dark">
+                        <a href="rbprevEmNumeros.php" class="card-link">
+                            <div class="card-body text-center">
+                                <p class="card-text"><font color="#fff">RBPREV em Números</font></p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- comment -->
+                    <!-- comment -->
                 </div>
-                <!-- comment -->
-                <!-- comment -->
             </div>
         </div>
     </div>
     <!-- Fim -->
-
-
-
-
-
     <!-- Inicio -->
     <div class="container px-4 py-5" id="custom-cards">
         <h2 class="pb-2 border-bottom">NOTÍCIAS RBPREV</h2>
@@ -356,7 +283,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -402,9 +328,6 @@
     </div>
 
 
-
-
-
-
+    <!--Fim do teste-->
 </body>
 <?php include("rodape.php"); ?>
