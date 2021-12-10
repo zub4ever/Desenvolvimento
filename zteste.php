@@ -1,5 +1,12 @@
 <?php include("cabecalho.php"); ?>
 <head>
+    <script src="/js/highstock.js"></script>
+    <script src="/js/highmaps.js"></script>
+    <script src="/js/highcharts.js"></script>
+    <script src="/js/modules/stock.js"></script>
+    <script src="/js/modules/map.js"></script>
+    <script src="/js/vendor/highcharts/highcharts.js"></script>
+
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -8,6 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/higcharts.css">
     <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
@@ -106,56 +114,57 @@
     </main>
     <!--INicio canais de comunicação-->
     <div class="container px-4 py-5" id="custom-cards">
-    <div class="row">
-        <div class="col-lg-3">
-            <!-- Inicio do Teste -->
-            <div class="card_comunicacao">
-                <div class="card-image_comunicacao"></div>
-                <div class="card-text_comunicacao">
+        <h3 class='text-center'>Serviços</h3>
+        <div class="row">
+            <div class="col-lg-3">
+                <!-- Inicio do Teste -->
+                <div class="card_comunicacao">
+                    <div class="card-image_comunicacao"></div>
+                    <div class="card-text_comunicacao">
 
-                    <h2>Atendimento</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                        <h2>Atendimento</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-3">
-            <div class="card_comunicacao">
-                <div class="card-image_comunicacao card2"></div>
-                <div class="card-text_comunicacao card2">
+            <div class="col-lg-3">
+                <div class="card_comunicacao">
+                    <div class="card-image_comunicacao card2"></div>
+                    <div class="card-text_comunicacao card2">
 
-                    <h2>Dúvidas</h2>
-                    <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
-                </div>       
-            </div>
-        </div>
-        <div class="col-lg-3">
-            <!-- card3 -->    
-            <div class="card_comunicacao">
-                <div class="card-image_comunicacao card3"></div>
-                <div class="card-text_comunicacao card3">
-
-                    <h2>Regras</h2>
-                    <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                        <h2>Dúvidas</h2>
+                        <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
+                    </div>       
                 </div>
-
             </div>
-        </div>
-        <div class="col-lg-3">
-            <div class="card_comunicacao">
-                <div class="card-image_comunicacao card4"></div>
-                <div class="card-text_comunicacao card4">
-                    
-                    <h2>Requerimentos</h2>
-                    <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
-                </div>
+            <div class="col-lg-3">
+                <!-- card3 -->    
+                <div class="card_comunicacao">
+                    <div class="card-image_comunicacao card3"></div>
+                    <div class="card-text_comunicacao card3">
 
+                        <h2>Regras</h2>
+                        <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card_comunicacao">
+                    <div class="card-image_comunicacao card4"></div>
+                    <div class="card-text_comunicacao card4">
+
+                        <h2>Requerimentos</h2>
+                        <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
-</div>
-    
-    
-    
+
+
+
     <!--inICIO DO CAROUSEL -->
     <div class ="row">
         <div class="container">
@@ -326,7 +335,81 @@
             </div>
         </div>
     </div>
+    <!-- comment -->
+    <script type="text/javascript">
 
+        $(function () {
+
+        var data_click = <?php echo $val_total_ffin2021; ?>
+        var data_viewer = <?php echo $val_total_ffin2021; ?>
+
+
+
+
+        /* global Highcharts */
+
+        Highcharts.chart('container', {
+        chart: {
+        type: 'variablepie'
+        },
+                title: {
+                text: 'Countries compared by population density and total area.'
+                },
+                tooltip: {
+                headerFormat: '',
+                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
+                        'Area (square km): <b>{point.y}</b><br/>' +
+                        'Population density (people per square km): <b>{point.z}</b><br/>'
+                },
+                series: [{
+                minPointSize: 10,
+                        innerSize: '20%',
+                        zMin: 0,
+                        name: 'countries',
+                        data: [{
+                        name: 'Spain',
+                                data_click,
+                                data_click
+                        }, {
+                        name: 'France',
+                                y: 551500,
+                                z: 118.7
+                        }, {
+                        name: 'Poland',
+                                y: 312685,
+                                z: 124.6
+                        }, {
+                        name: 'Czech Republic',
+                                y: 78867,
+                                z: 137.5
+                        }, {
+                        name: 'Italy',
+                                y: 301340,
+                                z: 201.8
+                        }, {
+                        name: 'Switzerland',
+                                y: 41277,
+                                z: 214.5
+                        }, {
+                        name: 'Germany',
+                                y: 357022,
+                                z: 235.6
+                        }]
+                }]
+        });
+
+
+    </script>
+
+    <figure class="highcharts-figure">
+        <div id="container"></div>
+        <p class="highcharts-description">
+            Variable radius pie charts can be used to visualize a
+            second dimension in a pie chart. In this chart, the more
+            densely populated countries are drawn further out, while the
+            slice width is determined by the size of the country.
+        </p>
+    </figure>
 
     <!--Fim do teste-->
 </body>
