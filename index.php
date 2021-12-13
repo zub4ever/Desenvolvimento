@@ -40,7 +40,7 @@ query_posts('showposts=3');
                 </button>
             </div>
             <div class="modal-body">
-                <img class="img-fluid" src="images/comunicado_12.jpeg">
+                <img class="img-fluid" src="images/aviso.jpg">
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@ query_posts('showposts=3');
                     <img src="images/prefeitura_banner.png" class="img-fluid " alt="Prefeitura de Rio Branco">
                 </a>  
             </div>
-
+            
             <div class="carousel-item">
                 <a href="sobre-o-recadastramento.php">
                     <img src="images/RecadastramentoOnline.png" class="img-fluid " alt="Recadastramento Online">
@@ -151,48 +151,59 @@ query_posts('showposts=3');
 
             <div class="row">
                 <div class="col-lg-2 col-md-6">
-                    <div class="card text-center" style="width: 20rem;">
-                        <div class="card-body">
-
-                            <img src="images/IconsIndex/contracheque2.png" alt="alt"/>
-                            <a href="#" class="btn btn-primary">Clique aqui!</a>
-                        </div>
+                    <div class="single-service card">
+                        <a href="calendarios.php">
+                            <div class="thumb">
+                                <img src="images/calendario2.png"  alt="Calendario de pagamentos" title="Calendario de pagamentos">                  
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="card text-center" style="width: 20rem;">
-                        <div class="card-body">
-
-                            <img src="images/IconsIndex/calendario2.png" alt="alt"/>
-                            <a href="#" class="btn btn-primary">Clique aqui!</a>
-                        </div>
+                    <div class="single-service card">
+                        <a href="http://portalcidadao.riobranco.ac.gov.br/contracheque/">
+                            <div class="thumb">
+                                <img alt="Contracheque" src="images/contracheque2.png" title="Contracheque">                  
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="card text-center" style="width: 20rem;">
-                        <div class="card-body">
-                            <img src="images/IconsIndex/simulador2.png" alt="alt"/>
-                            <a href="#" class="btn btn-primary">Clique aqui!</a>
-                        </div>
+                    <div class="single-service card">
+                        <a href="http://simulacao.rbprev.riobranco.ac.gov.br/">
+                            <div class="thumb">
+                                <img alt="Simular Aposentadoria" src="images/simulador2.png" title="Simulador de Aposentadoria">                 
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="card text-center" style="width: 20rem;">
-                        <div class="card-body">
-                            <img src="images/IconsIndex/simulador2.png" alt="alt"/>
-                            <a href="#" class="btn btn-primary">Clique aqui!</a>
-                        </div>
+                    <div class="single-service card">
+                        <a href="http://aplicacoes.rbprev.riobranco.ac.gov.br/DAP/">
+                            <div class="thumb">
+                                <img data-src="images/DAP2.png" alt="DAP" src="images/DAP2.png" title="Documento de Arrecadação Previdênciária">                 
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="card text-center" style="width: 20rem;">
-                        <div class="card-body">
-                            <img src="images/IconsIndex/crp2.png" alt="alt"/>
-                            <a href="#" class="btn btn-primary">Clique aqui!</a>
-                        </div>
+                    <div class="single-service card">
+                        <a href="documentos/crp.pdf">
+                            <div class="thumb">
+                                <img alt="CRP" src="images/crp2.png" title="Certificado de Regularidade Previdênciaria">                 
+                            </div>
+                        </a>
                     </div>
                 </div>
-              
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-service card">
+                        <a href="documentos.php">
+                            <div class="thumb">
+                                <img alt="Documentos" src="images/docs2.png" title="Documentos para baixar">                 
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 <!-- <a href="#" class="trd-btn text-uppercase" align="center" onclick="document.getElementById('sevs').focus()">Outros Serviços</a> -->
             </div>
         </div>
@@ -404,7 +415,7 @@ query_posts('showposts=3');
                         </a>
                     </div>
                 </div>
-
+               
                 <!-- <a href="#" class="trd-btn text-uppercase" align="center" onclick="document.getElementById('sevs').focus()">Outros Serviços</a> -->
             </div>
         </div>
