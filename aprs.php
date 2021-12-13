@@ -26,6 +26,10 @@
                         <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_Maio_2021.pdf" target="_blank">Maio</a></li>
                         <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_Junho_2021.pdf" target="_blank">Junho</a></li>
                         <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_Julho_2021.pdf" target="_blank">Julho</a></li>
+                        <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_AGOSTO_2021.pdf" target="_blank">Agosto</a></li><!-- comment -->
+                        <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_SETEMBRO_2021.pdf" target="_blank">Setembro</a></li>
+                        <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_OUTUBRO_2021.pdf" target="_blank">Outubro</a></li>
+                        <li><a class="dropdown-item" href="documentos/APR/APR_2021/APR_NOVEMBRO_2021.pdf" target="_blank">Novembro</a></li>
                     </ul>
                 </div>
             </div>

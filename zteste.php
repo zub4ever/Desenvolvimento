@@ -113,51 +113,54 @@
         </div>
     </main>
     <!--INicio canais de comunicação-->
-    <div class="container px-4 py-5" id="custom-cards">
-        <h3 class='text-center'>Serviços</h3>
-        <div class="row">
-            <div class="col-lg-3">
-                <!-- Inicio do Teste -->
-                <div class="card_comunicacao">
-                    <div class="card-image_comunicacao"></div>
-                    <div class="card-text_comunicacao">
+    <div class="bg-image" style=" background-image: url('nXLcEOXXvQ4HADomMNFMZ2Bki1KTjZGe5zFdfUqxZYuKE3o_A1K4bM404fzFGitsoDXX7UZ458OhhSucrpdRr8oL9A=w1440-h581-no?authuser=0');
+         height: 550px;">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h3 class='text-center text-white'>Canais de comunicação</h3>
+            <div class="row">
+                <div class="col-lg-3">
+                    <!-- Inicio do Teste -->
+                    <div class="card_comunicacao">
+                        <div class="card-image_comunicacao"></div>
+                        <div class="card-text_comunicacao">
 
-                        <h2>Atendimento</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                            <h2>Atendimento</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card_comunicacao">
-                    <div class="card-image_comunicacao card2"></div>
-                    <div class="card-text_comunicacao card2">
+                <div class="col-lg-3">
+                    <div class="card_comunicacao">
+                        <div class="card-image_comunicacao card2"></div>
+                        <div class="card-text_comunicacao card2">
 
-                        <h2>Dúvidas</h2>
-                        <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
-                    </div>       
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <!-- card3 -->    
-                <div class="card_comunicacao">
-                    <div class="card-image_comunicacao card3"></div>
-                    <div class="card-text_comunicacao card3">
-
-                        <h2>Regras</h2>
-                        <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                            <h2>Dúvidas</h2>
+                            <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
+                        </div>       
                     </div>
-
                 </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card_comunicacao">
-                    <div class="card-image_comunicacao card4"></div>
-                    <div class="card-text_comunicacao card4">
+                <div class="col-lg-3">
+                    <!-- card3 -->    
+                    <div class="card_comunicacao">
+                        <div class="card-image_comunicacao card3"></div>
+                        <div class="card-text_comunicacao card3">
 
-                        <h2>Requerimentos</h2>
-                        <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                            <h2>Regras</h2>
+                            <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                        </div>
+
                     </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card_comunicacao">
+                        <div class="card-image_comunicacao card4"></div>
+                        <div class="card-text_comunicacao card4">
 
+                            <h2>Requerimentos</h2>
+                            <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -336,70 +339,13 @@
         </div>
     </div>
     <!-- comment -->
-    <script type="text/javascript">
-
-        $(function () {
-
-        var data_click = <?php echo $val_total_ffin2021; ?>
-        var data_viewer = <?php echo $val_total_ffin2021; ?>
 
 
-
-
-        /* global Highcharts */
-
-        Highcharts.chart('container', {
-        chart: {
-        type: 'variablepie'
-        },
-                title: {
-                text: 'Countries compared by population density and total area.'
-                },
-                tooltip: {
-                headerFormat: '',
-                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
-                        'Area (square km): <b>{point.y}</b><br/>' +
-                        'Population density (people per square km): <b>{point.z}</b><br/>'
-                },
-                series: [{
-                minPointSize: 10,
-                        innerSize: '20%',
-                        zMin: 0,
-                        name: 'countries',
-                        data: [{
-                        name: 'Spain',
-                                data_click,
-                                data_click
-                        }, {
-                        name: 'France',
-                                y: 551500,
-                                z: 118.7
-                        }, {
-                        name: 'Poland',
-                                y: 312685,
-                                z: 124.6
-                        }, {
-                        name: 'Czech Republic',
-                                y: 78867,
-                                z: 137.5
-                        }, {
-                        name: 'Italy',
-                                y: 301340,
-                                z: 201.8
-                        }, {
-                        name: 'Switzerland',
-                                y: 41277,
-                                z: 214.5
-                        }, {
-                        name: 'Germany',
-                                y: 357022,
-                                z: 235.6
-                        }]
-                }]
-        });
-
-
-    </script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/variable-pie.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
     <figure class="highcharts-figure">
         <div id="container"></div>
@@ -414,3 +360,61 @@
     <!--Fim do teste-->
 </body>
 <?php include("rodape.php"); ?>
+
+
+
+
+
+<script type="text/javascript">
+
+    Highcharts.chart('container', {
+        chart: {
+            type: 'variablepie'
+        },
+        title: {
+            text: 'Countries compared by population density and total area.'
+        },
+        tooltip: {
+            headerFormat: '',
+            pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
+                    'Area (square km): <b>{point.y}</b><br/>' +
+                    'Population density (people per square km): <b>{point.z}</b><br/>'
+        },
+        series: [{
+                minPointSize: 10,
+                innerSize: '20%',
+                zMin: 0,
+                name: 'countries',
+                data: [{
+                        name: 'Spain',
+                        y: 505370,
+                        z: 92.9
+                    }, {
+                        name: 'France',
+                        y: 551500,
+                        z: 118.7
+                    }, {
+                        name: 'Poland',
+                        y: 312685,
+                        z: 124.6
+                    }, {
+                        name: 'Czech Republic',
+                        y: 78867,
+                        z: 137.5
+                    }, {
+                        name: 'Italy',
+                        y: 301340,
+                        z: 201.8
+                    }, {
+                        name: 'Switzerland',
+                        y: 41277,
+                        z: 214.5
+                    }, {
+                        name: 'Germany',
+                        y: 357022,
+                        z: 235.6
+                    }]
+            }]
+    });
+
+</script>

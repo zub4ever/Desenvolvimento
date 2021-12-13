@@ -78,14 +78,14 @@
             </div>
         </div>
         <div class="col-sm-12 col-lg-4 mb-2">
-                <div class="dropdown">
-                        <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%">
-                                Setembro
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-                                <a class="dropdown-item" href="documentos/comite/VIDEOCONFERENCIACOIN08092021.pdf" target="_blank">Dia 08</a>
-                        </div>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%">
+                    Setembro
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                    <a class="dropdown-item" href="documentos/comite/VIDEOCONFERENCIACOIN08092021.pdf" target="_blank">Dia 08</a>
                 </div>
+            </div>
         </div>
         <!--<div class="col-sm-12 col-lg-4 mb-2">
                 <div class="dropdown">
@@ -98,6 +98,26 @@
                         </div>
                 </div>
         </div>-->
+        <div class="col-sm-12 col-lg-4 mb-2">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%">
+                    Outubro
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 mb-2">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%">
+                    Novembro
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                    <a class="dropdown-item" href="documentos/comite/VIDEOCONFERENCIACOIN 30112021.pdf" target="_blank">Dia 30</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="d-flex justify-content-around">
         <a class="btn btn-outline-primary" onClick="history.go(-1)" role="button" style="width: 20%">
