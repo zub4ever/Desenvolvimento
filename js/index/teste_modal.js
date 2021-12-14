@@ -1,9 +1,8 @@
+$(document).ready(function () {
 
-  
 
-        /* global Highcharts */
 
-Highcharts.chart('container', {
+        Highcharts.chart('container', {
             chart: {
                 type: 'variablepie'
             },
@@ -13,8 +12,8 @@ Highcharts.chart('container', {
             tooltip: {
                 headerFormat: '',
                 pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
-                        'Area (square km): <b>{point.y}</b><br/>' +
-                        'Population density (people per square km): <b>{point.z}</b><br/>'
+                        'Número de Registros: (square km): <b>{point.y}</b><br/>' +
+                        'Total em R$:  <b>{point.z}</b><br/>'
             },
             series: [{
                     minPointSize: 10,
@@ -22,7 +21,7 @@ Highcharts.chart('container', {
                     zMin: 0,
                     name: 'countries',
                     data: [{
-                            name: 'Spain',
+                            name: 'Aposentados FPREV',
                             y: 505370,
                             z: 92.9
                         }, {
@@ -52,5 +51,4 @@ Highcharts.chart('container', {
                         }]
                 }]
         });
-
-  
+    });

@@ -1,11 +1,10 @@
-<?php include("cabecalho.php"); ?>
+<?php
+include("cabecalho.php");
+include('db/consultas.php');
+// Include WordPress
+?>
 <head>
-    <script src="/js/highstock.js"></script>
-    <script src="/js/highmaps.js"></script>
-    <script src="/js/highcharts.js"></script>
-    <script src="/js/modules/stock.js"></script>
-    <script src="/js/modules/map.js"></script>
-    <script src="/js/vendor/highcharts/highcharts.js"></script>
+
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -15,6 +14,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/estilo.css">
+
     <link rel="stylesheet" href="css/higcharts.css">
     <!------ Include the above in your HEAD tag ---------->
 </head>
@@ -113,9 +113,10 @@
         </div>
     </main>
     <!--INicio canais de comunicação-->
-    <div class="bg-image" style=" background-image: url('nXLcEOXXvQ4HADomMNFMZ2Bki1KTjZGe5zFdfUqxZYuKE3o_A1K4bM404fzFGitsoDXX7UZ458OhhSucrpdRr8oL9A=w1440-h581-no?authuser=0');
-         height: 550px;">
-        <div class="container px-4 py-5" id="custom-cards">
+    <div class="container px-4 py-5" id="custom-cards">
+        <div class="bg-image" style=" background-image: url('nXLcEOXXvQ4HADomMNFMZ2Bki1KTjZGe5zFdfUqxZYuKE3o_A1K4bM404fzFGitsoDXX7UZ458OhhSucrpdRr8oL9A=w1440-h581-no?authuser=0');
+             height: 550px;">
+
             <h3 class='text-center text-white'>Canais de comunicação</h3>
             <div class="row">
                 <div class="col-lg-3">
@@ -168,8 +169,9 @@
 
 
 
+
     <!--inICIO DO CAROUSEL -->
-    <div class ="row">
+   
         <div class="container">
             <div class="row">
                 <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
@@ -236,8 +238,29 @@
                 </div>
             </div>
         </div>
-    </div>
+    
     <!-- FIM CAROUSEL -->
+    <!-- Folha de pagamento -->
+
+    <script src="js/vendor/highcharts/highcharts.js"></script>
+    <script src="js/vendor/highcharts/modules/variable-pie.js"></script>
+    <script src="js/vendor/highcharts/modules/exporting.js"></script>
+    <script src="js/vendor/highcharts/modules/export-data.js"></script>
+    <script src="js/vendor/highcharts/modules/accessibility.js"></script>
+    <script src="js/index/teste_modal.js"></script>
+    <div class="container px-4 py-5" id="custom-cards">
+
+        <figure class="highcharts-figure">
+
+            <div id="container"></div>
+            <p class="highcharts-description">
+
+            </p>
+        </figure>
+
+    </div>
+    <!--Fim do teste-->
+
     <!-- inicio -->
     <div class="bg-image" style=" background-image: url('https://lh3.googleusercontent.com/S70mUfNVAso-xiZbOdiTitEmwsSfU0HVMKJsBFaCc3vcZtgiSgptSvUP39tS12Mf-_zNVMb3UulMth0MBvX49mk_tZyvBrUmRuHN0puqd9N0kDpTn9o5HBTDm2T53Tw1JzyWFkiCGGh5MuLOgCAj-nn0SUZfYITv3D8um440JDsaEOZ9uyPQThtPZ6mbmQKoG6RcIaM99pSfNIv5VGEeVNA6i8ru_p6Do8AEADhPy1dLCtoKPDlBa1womMr8N-XPhJWH0Cj7lCXMHHElj1e_zcuP6pfHoyTpR11QcsHtiMaXRn1TF7PTj1zDr-cQ-NJutWkvRZIPzxRuDsaoV4Ah_mTEhWRwKAqAwNZRBX0tEexkRmotuBmJtfS8T-OGraxfXh5Ab6gkGoFf_1Vq38asEdnk5PKKpCk1QIJir0HAM42bjGfTE_ZVLwF5QOxmoAKlnXLcEOXXvQ4HADm3Ziv-dF43coueaYiIKlQZ3GEjqKRqmooIgIlMx3yrSL_TVzZueV4WIJY8xfpySdpiNYQQJY04FUoWrMdpe8O3QW6BEq82tHhOjKGGtRqWfYxlbmygAo84-JKMUKE323tvG7omMNFMZ2Bki1KTjZGe5zFdfUqxZy2J-ouWPQUap__N7Up6CQcbGcxQqTRGsmb8k548L74NfGhPVj1KHpzTcoVvuYuKE3o_A1K4bM404fzFGitsoDXX7UZ458OhhSucrpdRr8oL9A=w1440-h581-no?authuser=0');
          height: 420px;">
@@ -338,26 +361,8 @@
             </div>
         </div>
     </div>
-    <!-- comment -->
 
 
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/variable-pie.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
-    <script src="https://code.highcharts.com/modules/export-data.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-
-    <figure class="highcharts-figure">
-        <div id="container"></div>
-        <p class="highcharts-description">
-            Variable radius pie charts can be used to visualize a
-            second dimension in a pie chart. In this chart, the more
-            densely populated countries are drawn further out, while the
-            slice width is determined by the size of the country.
-        </p>
-    </figure>
-
-    <!--Fim do teste-->
 </body>
 <?php include("rodape.php"); ?>
 
@@ -365,56 +370,5 @@
 
 
 
-<script type="text/javascript">
 
-    Highcharts.chart('container', {
-        chart: {
-            type: 'variablepie'
-        },
-        title: {
-            text: 'Countries compared by population density and total area.'
-        },
-        tooltip: {
-            headerFormat: '',
-            pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
-                    'Area (square km): <b>{point.y}</b><br/>' +
-                    'Population density (people per square km): <b>{point.z}</b><br/>'
-        },
-        series: [{
-                minPointSize: 10,
-                innerSize: '20%',
-                zMin: 0,
-                name: 'countries',
-                data: [{
-                        name: 'Spain',
-                        y: 505370,
-                        z: 92.9
-                    }, {
-                        name: 'France',
-                        y: 551500,
-                        z: 118.7
-                    }, {
-                        name: 'Poland',
-                        y: 312685,
-                        z: 124.6
-                    }, {
-                        name: 'Czech Republic',
-                        y: 78867,
-                        z: 137.5
-                    }, {
-                        name: 'Italy',
-                        y: 301340,
-                        z: 201.8
-                    }, {
-                        name: 'Switzerland',
-                        y: 41277,
-                        z: 214.5
-                    }, {
-                        name: 'Germany',
-                        y: 357022,
-                        z: 235.6
-                    }]
-            }]
-    });
 
-</script>

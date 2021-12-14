@@ -1,7 +1,8 @@
+
 comunicacao {
     width: 100vw;
     height: 60vh;
-    display: relative;
+    display: flex;
     align-items: center;
     justify-content: center;
     background:url(https://lh3.googleusercontent.com/x64B1H3LJwsNZNRJOnnMpzhd4rcTHZRyC72wuu126Hln2TMLt_u1j-7gkJNfl-8wruAogqW7RauW1Hm5jQ8VXTwEtfwgKHbjNFRx8Bzr2KmN54AFr5vCFMMTezUSFiCXkdtlbRuUt3ru2jqYEp41UI1bwV9d8vnpDxhbI0dSxM3UCRN-gFVUMu66F2czEJV335ogHoq1Irws71WRorJok7iyx2j_zy0NJFSeTTInbdfIDnarRB5vIHbSiwGTXNUd20qrqa9ZXAdrfcoHojD3O3z-qFAnv0xUxi_zsitbHzp8Ep9x45SibNcwomnwNm3YVA9AWXoQ66QbEecCOG7LkzakbJay_JHVQE4JGEvwesou27v2uZlKubZJVs_hmotY376C9_kTX04n7rD70PgWYA6b6Ul0pjmaevbWT5e7gBGVqScsaDiG26cmWByLhVZNRFN2wcY-VjT9I_e_VKapm1tV6hoH1jN4B-gvJIlUzwWavj5MSv0hOU9KEnaGmRFitFauBhN1vs1NJ8ToK7-oEd_vnbifMHaslsuit1xAmJ_65AmCm2iiHKguEShioI0TaC1rzMZZSu07f5DbOuoIHmaBpqdtBB7BuxgNRVcXTtVwj0FN_yJWJ5jQFNgTpSbTxyEREfK2S_NuIwwTvKEoc4rQFVPPauWw-_EO-AhI92c-aXB6qUjSb7C0wpnL2MnSasQZ0TgGUhMqMVogImqVAV_rtA=w1440-h257-no?authuser=0);
