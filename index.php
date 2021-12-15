@@ -3,7 +3,15 @@ include("cabecalho.php");
 include('db/consultas.php');
 // Include WordPress
 
-
+define('WP_USE_THEMES', false);
+require('./noticias/2021/wp-load.php');
+$query = new WP_Query(array(
+    'posts_per_page' => 3,
+    'no_found_rows' => true,
+        ));
+//
+// Define quantos posts serão exibidos
+query_posts('showposts=3');
 ?>
 
 <script type="text/javascript">
@@ -32,7 +40,7 @@ include('db/consultas.php');
                 </button>
             </div>
             <div class="modal-body">
-                <img class="img-fluid" src="images/aviso.jpg">
+                <img class="img-fluid" src="images/modalAviso.jpg">
             </div>
         </div>
     </div>
