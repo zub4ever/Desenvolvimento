@@ -7,7 +7,7 @@ $(document).ready(function () {
             type: 'variablepie'
         },
         title: {
-            text: 'Resumo da folha de pagamento - Dezembro 2021'
+            text: 'Resumo da folha de pagamento - Novembro 2021'
         },
         tooltip: {
             headerFormat: '',

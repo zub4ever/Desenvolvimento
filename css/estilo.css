@@ -6,7 +6,7 @@ comunicacao {
     position: relative;
     align-items: center;
     justify-content: center;
-    background:url(https://lh3.googleusercontent.com/s1mEZaLC60w1xLf62bs10HTghfJIS1Nlw5Nr6mjzYVg1XXgrsSqGKoyyymU86SqrpXHfcmw73sUQohWf0Yc5xYELEYtpMO_XOuoOktO3mmuSAC-GTlv3-WXQ7V6ulBrKa-8tcCx4_2ETg_t_jt6L7bgiJfX9lRmW15GV-wnAAo4WeqooI0kxNBwK91601Uc-6wFjdw8F30zfrrCabejmmy5eyAe1qQNsDpzuqG4SYmvWK_IR-DPJmOCjrJkya-PSt_SSSzVOcIJ2h_3gltWc4WBSI_YB4qLZxmGmEbJr7l0VE1VwOZBpHU1qz-NlJTnvWH3Wnt2kh-4DS3EM8gqttXC24clXpsx06q2DK3adr90QFH36Y5BngAoGYDZqFTV4uwHy4e9z_X0F0_1jJUt6SW9Tpco2IEw6JEF-sY98Oid0WOKvwgzza8Phs3uDH9hbb3SZ3PvaqoXa22ofSgQzQ8rjyOvRLPg8IGA0Qs-vXDO-2lTCw9mF_UmxYPM5oWaltGp92n1Nk5RMZ_e7lycZjpzkGJMVrLuS3LNXtl7ir2B1kTuYmVkkyEXGBCPVSp7SaiFmNAC88nyp9Zk7lqYUxcQuE3PTRjjfqULC7E-sSPsK73pQ2QQ8IhBgXAfiAA1uE0KuWYueD8av6Peask1BGH5oR6TytHn7_P55UlV3eFV8_1oJAJDV8doJx6A-KyIo49-oM1FpNacfM29EKt2XzqdYSw=w1440-h257-no?authuser=0);
+    background:url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/background_canais.png');
     overflow: hidden;
 }
 .card_comunicacao {
@@ -29,7 +29,7 @@ comunicacao {
 }
 .card-image_comunicacao {
     grid-area: image;
-    background:url() no-repeat;
+    background:url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/phone.png') no-repeat;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-position: center; 
@@ -92,7 +92,7 @@ comunicacao {
 
 /*card2*/
 .card-image_comunicacao.card2 {
-    background:url() no-repeat;
+    background:url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/qustions.png') no-repeat;
     background-position: center;    
 
 }
@@ -109,7 +109,7 @@ comunicacao {
 /*card3*/
 .card-image_comunicacao.card3 {
 
-    background:url() no-repeat;
+    background:url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/Group%201%20(23).png') no-repeat;
     background-position: center; 
 }
 .card-text_comunicacao.card3 .date {
@@ -123,7 +123,7 @@ comunicacao {
     background: rgb(0, 189, 63);
 }/*card4*/
 .card-image_comunicacao.card4 {
-    background:url() no-repeat;
+    background:url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/reque.png') no-repeat;
     background-position: center; 
 }
 .card-text_comunicacao.card4 .date {
