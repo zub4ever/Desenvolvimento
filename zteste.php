@@ -5,14 +5,16 @@ include("cabecalho.php");
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script src="js/index/teste.js"></script>
     <script src="js/index/teste_modal.js"></script>
+    <script src="js/index/certificados.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/news.css">
-
-    <link rel="stylesheet" href="css/higcharts.css">
+    <link rel="stylesheet" href="css/certificados.css">
     <!------ Include the above in your HEAD tag ---------->
 </head>
 <body>
@@ -337,7 +339,11 @@ include("cabecalho.php");
     <hr>
     <section>
         <link rel="stylesheet" href="css/noticias.css">
+        <div class="title text-center">
+            <h2 class="mb-10 text-dark">Notícias</h2>
+        </div>
         <div class="content-wrapper">
+
             <div class="container">
                 <div class="row" data-aos="fade-up">
                     <div class="col-xl-8 stretch-card grid-margin">
@@ -424,6 +430,64 @@ include("cabecalho.php");
     </section>
     <hr>
     <!-- FIm -->
+    <!-- incio  -->
+    <div class="title text-center">
+        <h2 class="mb-10 text-dark">Certificados</h2>
+    </div>
+    <div class="containerCarousel">
+
+        <div class="element-card">
+            <div class="front-facing">
+                <img
+                    src="images/IconsIndex/cert_proGestao.png"
+                    alt=""/>
+                <p class="title">Pró-Gestão</p>
+
+            </div>
+            <div class="back-facing">
+                <p>Copper is a chemical element with symbol Cu (from Latin: cuprum) and atomic number 29. It is a soft, malleable, and ductile metal with very high thermal and electrical conductivity.</p>
+                <p><a class="btn" href="https://en.wikipedia.org/wiki/Copper" target="_blank">More info</a></p>
+            </div>
+        </div>
+
+
+
+        <div class="element-card">
+            <div class="front-facing">
+                <img
+                    src="images/IconsIndex/cert_GreenCarbon.png"
+                    alt=""
+                    />
+                <h1 class="title">Green Carbon</h1>
+
+
+            </div>
+            <div class="back-facing">
+                <p>Gold is a chemical element with symbol Au and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element.</p>
+                <p><a class="btn" href="https://en.wikipedia.org/wiki/Gold" target="_blank">More info</a></p>
+            </div>
+        </div>
+
+        <div class="element-card">
+            <div class="front-facing">
+                <img
+                    src="images/IconsIndex/cert_Prevencao.png"
+                    alt=""/>
+                <p class="title">Prevenção corrupção</p>
+
+            </div>
+            <div class="back-facing">
+                <p>Roentgenium is a chemical element with symbol Rg and atomic number 111. It is an extremely radioactive synthetic element (an element that can be created in a laboratory but is not found in nature).</p>
+                <p><a class="btn" href="https://en.wikipedia.org/wiki/Roentgenium" target="_blank">More info</a></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Fim -->
+
+
 </body>
 <?php include("rodape.php"); ?>
 
