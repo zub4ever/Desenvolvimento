@@ -124,51 +124,59 @@ include("cabecalho.php");
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-3">
-                                <!-- Inicio do Teste -->
-                                <div class="card_comunicacao">
-                                    <div class="card-image_comunicacao"></div>
-                                    <div class="card-text_comunicacao">
-                                        <h2>Atendimento</h2>
-                                        <p>Telefone e e-mails de contato para retirada de dúvidas e questionamentos.</p>
+                                <a href="http://www.rbprev.riobranco.ac.gov.br/atendimento_ao_segurado.php" target="_blank" class="card-link text-dark">
+                                    <!-- Inicio do Teste -->
+                                    <div class="card_comunicacao">
+                                        <div class="card-image_comunicacao"></div>
+                                        <div class="card-text_comunicacao">
+                                            <h2>Atendimento</h2>
+                                            <p>Telefone e e-mails de contato para retirada de dúvidas e questionamentos.</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-3">
-                                <div class="card_comunicacao">
-                                    <div class="card-image_comunicacao card2"></div>
-                                    <div class="card-text_comunicacao card2">
+                                <a href="http://www.rbprev.riobranco.ac.gov.br/duvidas-frequentes.php" target="_blank" class="card-link text-dark">
+                                    <div class="card_comunicacao">
+                                        <div class="card-image_comunicacao card2"></div>
+                                        <div class="card-text_comunicacao card2">
 
-                                        <h2>Dúvidas</h2>
-                                        <p>Principais dúvidas relativas ao  Regime Próprio de Previdência Social.</p>
-                                    </div>       
-                                </div>
+                                            <h2>Dúvidas</h2>
+                                            <p>Principais dúvidas relativas ao  Regime Próprio de Previdência Social.</p>
+                                        </div>       
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-lg-3">
-                                <!-- card3 -->    
-                                <div class="card_comunicacao">
-                                    <div class="card-image_comunicacao card3"></div>
-                                    <div class="card-text_comunicacao card3">
+                                <!-- card3 -->   
+                                <a href="" target="_blank" class="card-link text-dark">
+                                    <div class="card_comunicacao">
+                                        <div class="card-image_comunicacao card3"></div>
+                                        <div class="card-text_comunicacao card3">
 
-                                        <h2>Regras</h2>
-                                        <p>Cartilhas para conferência de regras  para a aposentadeoria.</p>
+                                            <h2>Regras</h2>
+                                            <p>Cartilhas para conferência de regras  para a aposentadeoria.</p>
+                                        </div>
+
                                     </div>
-
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-3">
-                                <div class="card_comunicacao">
-                                    <div class="card-image_comunicacao card4"></div>
-                                    <div class="card-text_comunicacao card4">
+                                <a href="http://www.rbprev.riobranco.ac.gov.br/documentos.php" target="_blank" class="card-link text-dark">
+                                    <div class="card_comunicacao">
+                                        <div class="card-image_comunicacao card4"></div>
+                                        <div class="card-text_comunicacao card4">
 
-                                        <h2>Requerimentos</h2>
-                                        <p>Requerimentos de pensão, aposentadoria, requisições de junta médico e outros formulário.</p>
+                                            <h2>Requerimentos</h2>
+                                            <p>Requerimentos de pensão, aposentadoria, requisições de junta médico e outros formulário.</p>
+                                        </div>
+
                                     </div>
-
-                                </div>
+                                </a>
                             </div>  				  
                         </div>
                     </div>
-                    </p>              
+
                 </div>        		
             </div>
         </div>
@@ -445,8 +453,8 @@ include("cabecalho.php");
 
             </div>
             <div class="back-facing">
-                <p>Copper is a chemical element with symbol Cu (from Latin: cuprum) and atomic number 29. It is a soft, malleable, and ductile metal with very high thermal and electrical conductivity.</p>
-                <p><a class="btn" href="https://en.wikipedia.org/wiki/Copper" target="_blank">More info</a></p>
+                <p>Programa de Certificação Institucional e Modernização da Gestão dos Regimes Próprios de Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios.</p>
+                <p><a class="btn" href="http://www.rbprev.riobranco.ac.gov.br/documentos/rpps_pro_gestao.pdf" target="_blank">Ver mais</a></p>
             </div>
         </div>
 
@@ -463,8 +471,8 @@ include("cabecalho.php");
 
             </div>
             <div class="back-facing">
-                <p>Gold is a chemical element with symbol Au and atomic number 79. In its purest form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element.</p>
-                <p><a class="btn" href="https://en.wikipedia.org/wiki/Gold" target="_blank">More info</a></p>
+                <p>O projeto Green Carbon by NDD, tem como objetivo, reduzir a emissão de dióxido de carbono da natureza plantando árvores.</p>
+                <p><a class="btn" href="http://www.rbprev.riobranco.ac.gov.br/documentos/CertificadoGreenCarbon.pdf" target="_blank">Ver mais</a></p>
             </div>
         </div>
 
@@ -477,8 +485,8 @@ include("cabecalho.php");
 
             </div>
             <div class="back-facing">
-                <p>Roentgenium is a chemical element with symbol Rg and atomic number 111. It is an extremely radioactive synthetic element (an element that can be created in a laboratory but is not found in nature).</p>
-                <p><a class="btn" href="https://en.wikipedia.org/wiki/Roentgenium" target="_blank">More info</a></p>
+                <p>O Programa Nacional de Prevenção à Corrupção- PNPC é uma proposta inovadora adotada pela Estratégia Nacional de Combate à Corrupção e à Lavagem de Dinheiro (Enccla).</p>
+                <p><a class="btn" href="http://rbprev.riobranco.ac.gov.br/noticias/2021/index.php/2021/08/23/rbprev-recebe-selo-do-programa-nacional-de-prevencao-a-corrupcao-pnpc/" target="_blank">Ver mais</a></p>
             </div>
         </div>
 

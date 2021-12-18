@@ -67,16 +67,7 @@
         </script>
 
     </head>
-    <body>
-        <a id="cert-imge" href="documentos/rpps_pro_gestao.pdf"><img src="images/certificado-pro-gestao.png" id="cert-img" style="
-                                                                     z-index: 1000;
-                                                                     float: right;
-                                                                     width: 120px;
-                                                                     position: fixed;
-                                                                     right: -10px;
-                                                                     top: 0;
-                                                                     "></a>
-
+    <body>       
         <header id="header" id="home">
             <div class="header-top" id="ht" >
                 <div class="container">
