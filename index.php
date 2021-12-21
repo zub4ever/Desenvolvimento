@@ -40,7 +40,7 @@ query_posts('showposts=3');
                 </button>
             </div>
             <div class="modal-body">
-                <img class="img-fluid" src="images/modalAviso.jpg">
+                <img class="img-fluid" src="images/calendario_fim_de_ano_2021.jpg">
             </div>
         </div>
     </div>

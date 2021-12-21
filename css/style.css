@@ -75,15 +75,19 @@
 }
 .cards:nth-child(1):before {
   background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/contra_cheque.jpg');
+  background-position: center; 
 }
 .cards:nth-child(2):before {
   background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/calendario_2021.jpg');
+  background-position: center;
 }
 .cards:nth-child(3):before {
   background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/d_a_p.jpg');
+  background-position: center;
 }
 .cards:nth-child(4):before {
   background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/cedula_c.jpg');
+  background-position: center;
 }
 
 .contents {
@@ -103,7 +107,7 @@
 .titles {
   font-size: 1.3rem;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 2.0;
 }
 
 .copys {

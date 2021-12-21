@@ -49,12 +49,41 @@ include("cabecalho.php");
                 <li data-traget="#slideshow" data-slide-to="3"></li>
             </ul>
             <!-- O slideshow -->
-            <div class="carousel-inner">  
+            <div class="carousel-inner">
+                <!-- <div class="carousel-item active">
+                        <div class="d-flex align-items-center justify-content-center min-vh-100">
+                                <a href="sobre-o-recadastramento.php">
+                                        <img src="images/banner_recadastramento.jpg" alt="Recadastramento" class="img-fluid" />
+                                </a>
+                        </div>
+                        </div> -->
+                <!-- <div class="carousel-item">
+                        <a href="documentos/novembro_azul.pdf">
+                                <img src="images/novembro_azul.png" alt="" class="img-fluid" />
+                        </a>
+                        </div> -->
+                <!-- <div class="carousel-item">
+                        <a href="http://rbprev.riobranco.ac.gov.br/noticia_p080819.php">
+                                <img src="images/ReceitaComprev.png" alt="Comprev" class="img-fluid" />
+                        </a>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="http://rbprev.riobranco.ac.gov.br/artigo_fprev.php">
+                                <img src="images/bannersitefprev.png" alt="" class="img-fluid" />
+                        </a>
+                        </div> -->
+                <!-- <div class="carousel-item active">
+                        <a href="documentos/cartilha_reforma.pdf">
+                                <img src="images/cartilha_reforma.png" alt="" class="img-fluid" />
+                        </a>
+                        </div>-->
+
                 <div class="carousel-item active">
                     <a href="http://riobranco.ac.gov.br/" target="_blank">
                         <img src="images/prefeitura_banner.png" class="img-fluid " alt="Prefeitura de Rio Branco">
                     </a>  
                 </div>
+
                 <div class="carousel-item">
                     <a href="sobre-o-recadastramento.php">
                         <img src="images/RecadastramentoOnline.png" class="img-fluid " alt="Recadastramento Online">
@@ -65,6 +94,13 @@ include("cabecalho.php");
                         <img src="images/Banner_Cedula_C.png"  alt="Cedula C" class="img-fluid" />
                     </a>
                 </div>
+
+
+                <!-- <div class="carousel-item active">
+                        <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
+                        <img src="images/Banner_ouvidoria-rbr.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
+                        </a>  
+                </div> -->
             </div>
             <!-- controles -->
             <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
@@ -76,6 +112,7 @@ include("cabecalho.php");
         </div>
         <!-- FIM SLIDE-->
     </section>
+    
     <!-- Fim carousel -->
     <br>
     <h3 class='text-center'>Serviços</h3>
@@ -111,10 +148,12 @@ include("cabecalho.php");
         </div>
     </main>
     <!--INicio canais de comunicação-->
+    <br><br>
     <section>
         <div class="bg-image" style=" background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/background_canais.png');
              position:relative;">
             <div class="container">
+                <br>
                 <div class="title text-center">
                     <h2 class="mb-10 text-white">Canais de Comunicação</h2>
                 </div>
@@ -192,14 +231,14 @@ include("cabecalho.php");
     <link rel="stylesheet" href="js/vendor/highcharts/css/highcharts.css">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 py-2">
+            <div class="col-lg-5 py-2">
                 <figure class="highcharts-figure">
                     <div id="container"></div>
                     <p class="highcharts-description">
                     </p>
                 </figure>
             </div>
-            <div class="col-lg-3 py-2">
+            <div class="col-lg-4 py-2">
                 <figure class="highcharts-figure">
                     <div id="containerteste"></div>
                     <p class="highcharts-description">
@@ -218,8 +257,51 @@ include("cabecalho.php");
         </div>
     </div>
     <!--Fim do teste-->
+
+    <!-- inicio -->
+    <div class="bg-image" style=" background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/background_rb_number.png');
+         position:relative;">
+        <div class="container">
+            <br>
+            <div class="title text-center">
+                <h2 class="mb-10 text-white">RBPREV EM NÚMEROS</h2>
+            </div>        
+            <div class="row">
+                <p align="justify" style="text-indent:10mm;">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 py-2">
+                                    <img src="images/IconsIndex/rbprevnumber.png" alt="alt"/>	
+                                </div>
+                                <div class="col-lg-6 mt-2">
+                                    <hr>
+                                    <div class="card border-primary mb-3">
+                                        <p align="justify">
+                                            O RBPREV em números traz informações sobre o Regime Próprio de Previdência do Município de Rio Branco. A publicação apresenta informações referentes às atividades desenvolvidas pelo RBPREV na gestão dos Fundos Previdenciário e Financeiro, tanto concernente às concessões dos benefícios previdenciários quanto à gestão financeira e meta atuarial.
+                                        </p>
+                                    </div>
+                                    <div class="card bg-dark">
+                                        <a href="rbprevEmNumeros.php" class="card-link">
+                                            <div class="card-body text-center">
+                                                <p class="card-text"><font color="#fff">RBPREV em Números</font></p>
+                                            </div>
+                                        </a>
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- Fim -->
     <!--inICIO DO CAROUSEL -->
-    <hr>
+
     <section>
         <div class="container">
             <div class="title text-center">
@@ -298,60 +380,19 @@ include("cabecalho.php");
             </div>
         </div>
     </section>
-    <hr>
+
 
 
     <!-- FIM CAROUSEL -->
-    <!-- inicio -->
-    <div class="bg-image" style=" background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/background_rb_number.png');
-         position:relative;">
-        <div class="container">
-            <div class="title text-center">
-                <h2 class="mb-10 text-dark">RBPREV EM NÚMEROS</h2>
-            </div>        
-            <div class="row">
-                <p align="justify" style="text-indent:10mm;">
-                <div class="container">
-                    <div class="row">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 py-2">
-                                    <img src="images/IconsIndex/rbprevnumber.png" alt="alt"/>	
-                                </div>
-                                <div class="col-lg-6 mt-2">
-                                    <hr>
-                                    <div class="card border-primary mb-3">
-                                        <p align="justify">
-                                            O RBPREV em números traz informações sobre o Regime Próprio de Previdência do Município de Rio Branco. A publicação apresenta informações referentes às atividades desenvolvidas pelo RBPREV na gestão dos Fundos Previdenciário e Financeiro, tanto concernente às concessões dos benefícios previdenciários quanto à gestão financeira e meta atuarial.
-                                        </p>
-                                    </div>
-                                    <div class="card bg-dark">
-                                        <a href="rbprevEmNumeros.php" class="card-link">
-                                            <div class="card-body text-center">
-                                                <p class="card-text"><font color="#fff">RBPREV em Números</font></p>
-                                            </div>
-                                        </a>
-                                    </div>                               
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </p>
-                <hr>
-            </div>
-        </div>
-    </div>
-    <!-- Fim -->
     <!-- Inicio -->
-    <hr>
+    
     <section>
         <link rel="stylesheet" href="css/noticias.css">
-        <div class="title text-center">
-            <h2 class="mb-10 text-dark">Notícias</h2>
-        </div>
-        <div class="content-wrapper">
 
+        <div class="content-wrapper">
+            <div class="title text-center">
+                <h2 class="mb-5 text-dark">Notícias</h2>
+            </div>
             <div class="container">
                 <div class="row" data-aos="fade-up">
                     <div class="col-xl-8 stretch-card grid-margin">
@@ -436,7 +477,7 @@ include("cabecalho.php");
             </div>
         </div>
     </section>
-    <hr>
+    
     <!-- FIm -->
     <!-- incio  -->
     <div class="title text-center">
