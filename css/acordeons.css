@@ -1,0 +1,45 @@
+/* Accordion Style */
+.contentRules {
+  transition: max-height 0.3s;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.contentRules.is-open {
+  max-height: var(--max-height);
+}
+
+/* Base Style */
+
+
+ulRules {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+liRules {
+  margin: 32px 0 0;
+}
+liRules:first-child {
+  margin-top: 0;
+}
+
+
+
+.triggerRules {
+  padding: 16px;
+  background: #007cd5;
+  font-weight: bold;
+}
+.triggerRules:hover {
+  cursor: pointer;
+}
+
+.contentRules p {
+  background: #f8f8f8;
+  box-sizing: border-box;
+  padding: 16px;
+}

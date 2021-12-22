@@ -10,58 +10,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
-  --blue: #5e50f9;
-  --indigo: #6610f2;
-  --purple: #6a008a;
-  --pink: #e91e63;
-  --red: #f96868;
-  --orange: #f2a654;
-  --yellow: #f6e84e;
-  --green: #46c35f;
-  --teal: #58d8a3;
-  --cyan: #57c7d4;
-  --white: #ffffff;
-  --gray: #6c757d;
-  --gray-dark: #0f1531;
-  --blue: #5e50f9;
-  --indigo: #6610f2;
-  --purple: #6a008a;
-  --pink: #e91e63;
-  --red: #f96868;
-  --orange: #f2a654;
-  --yellow: #f6e84e;
-  --green: #46c35f;
-  --teal: #58d8a3;
-  --cyan: #57c7d4;
-  --white: #ffffff;
-  --gray: #434a54;
-  --gray-light: #aab2bd;
-  --gray-lighter: #e8eff4;
-  --gray-lightest: #e6e9ed;
-  --black: #000000;
-  --primary: #032a63;
-  --secondary: #3a3a3a;
-  --success: #3e8177;
-  --info: #4d7cff;
-  --warning: #f5a623;
-  --danger: #d1011c;
-  --light: #f8f8f8;
-  --dark: #000000;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 
 
@@ -100,11 +48,6 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
-}
 
 ol,
 ul,
@@ -179,13 +122,6 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
-pre,
-code,
-kbd,
-samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em;
-}
 
 pre {
   margin-top: 0;

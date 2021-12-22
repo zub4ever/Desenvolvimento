@@ -109,24 +109,21 @@ query_posts('showposts=3');
                     <img src="images/prefeitura_banner.png" class="img-fluid " alt="Prefeitura de Rio Branco">
                 </a>  
             </div>
-            
+
             <div class="carousel-item">
-                <a href="sobre-o-recadastramento.php">
+                <a href="sobre-o-recadastramento.php" target="_blank">
                     <img src="images/RecadastramentoOnline.png" class="img-fluid " alt="Recadastramento Online">
                 </a>  
             </div>
             <div class="carousel-item">
-                <a href="http://dirf.rbprev.riobranco.ac.gov.br/sisced/">
+                <a href="http://dirf.rbprev.riobranco.ac.gov.br/sisced/" target="_blank">
                     <img src="images/Banner_Cedula_C.png"  alt="Cedula C" class="img-fluid" />
                 </a>
             </div>
-
-
-            <!-- <div class="carousel-item active">
-                    <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
-                    <img src="images/Banner_ouvidoria-rbr.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
-                    </a>  
-            </div> -->
+            <div class="carousel-item">
+                    <img src="images/felizfestas.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
+             
+            </div> 
         </div>
         <!-- controles -->
         <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
@@ -415,7 +412,7 @@ query_posts('showposts=3');
                         </a>
                     </div>
                 </div>
-               
+
                 <!-- <a href="#" class="trd-btn text-uppercase" align="center" onclick="document.getElementById('sevs').focus()">Outros Serviços</a> -->
             </div>
         </div>

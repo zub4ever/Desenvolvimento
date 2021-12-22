@@ -38,84 +38,81 @@ include("cabecalho.php");
         </div>
     </div>
     <!------ Fim Modal ---------->
-    <!-- Inicio Carousel -->
-    <section class="service-area section-gap-a">
-        <div id="slideshow" class="carousel slide carousel-fade" data-ride="carousel" align="center"  data-interval="5000">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
-                <li data-target="#slideshow" data-slide-to="1"></li>
-                <li data-target="#slideshow" data-slide-to="2"></li>
-                <li data-traget="#slideshow" data-slide-to="3"></li>
-            </ul>
-            <!-- O slideshow -->
-            <div class="carousel-inner">
-                <!-- <div class="carousel-item active">
-                        <div class="d-flex align-items-center justify-content-center min-vh-100">
-                                <a href="sobre-o-recadastramento.php">
-                                        <img src="images/banner_recadastramento.jpg" alt="Recadastramento" class="img-fluid" />
-                                </a>
-                        </div>
-                        </div> -->
-                <!-- <div class="carousel-item">
-                        <a href="documentos/novembro_azul.pdf">
-                                <img src="images/novembro_azul.png" alt="" class="img-fluid" />
-                        </a>
-                        </div> -->
-                <!-- <div class="carousel-item">
-                        <a href="http://rbprev.riobranco.ac.gov.br/noticia_p080819.php">
-                                <img src="images/ReceitaComprev.png" alt="Comprev" class="img-fluid" />
-                        </a>
-                        </div>
-                        <div class="carousel-item">
-                        <a href="http://rbprev.riobranco.ac.gov.br/artigo_fprev.php">
-                                <img src="images/bannersitefprev.png" alt="" class="img-fluid" />
-                        </a>
-                        </div> -->
-                <!-- <div class="carousel-item active">
-                        <a href="documentos/cartilha_reforma.pdf">
-                                <img src="images/cartilha_reforma.png" alt="" class="img-fluid" />
-                        </a>
-                        </div>-->
-
-                <div class="carousel-item active">
-                    <a href="http://riobranco.ac.gov.br/" target="_blank">
-                        <img src="images/prefeitura_banner.png" class="img-fluid " alt="Prefeitura de Rio Branco">
-                    </a>  
-                </div>
-
-                <div class="carousel-item">
-                    <a href="sobre-o-recadastramento.php">
-                        <img src="images/RecadastramentoOnline.png" class="img-fluid " alt="Recadastramento Online">
-                    </a>  
-                </div>
-                <div class="carousel-item">
-                    <a href="http://dirf.rbprev.riobranco.ac.gov.br/sisced/">
-                        <img src="images/Banner_Cedula_C.png"  alt="Cedula C" class="img-fluid" />
+    <!-- SLIDE -->
+<section class="service-area section-gap-a">
+    <div id="slideshow" class="carousel slide carousel-fade" data-ride="carousel" align="center"  data-interval="5000">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+            <li data-traget="#slideshow" data-slide-to="3"></li>
+        </ul>
+        <!-- O slideshow -->
+        <div class="carousel-inner">
+            <!-- <div class="carousel-item active">
+                    <div class="d-flex align-items-center justify-content-center min-vh-100">
+                            <a href="sobre-o-recadastramento.php">
+                                    <img src="images/banner_recadastramento.jpg" alt="Recadastramento" class="img-fluid" />
+                            </a>
+                    </div>
+                    </div> -->
+            <!-- <div class="carousel-item">
+                    <a href="documentos/novembro_azul.pdf">
+                            <img src="images/novembro_azul.png" alt="" class="img-fluid" />
                     </a>
-                </div>
+                    </div> -->
+            <!-- <div class="carousel-item">
+                    <a href="http://rbprev.riobranco.ac.gov.br/noticia_p080819.php">
+                            <img src="images/ReceitaComprev.png" alt="Comprev" class="img-fluid" />
+                    </a>
+                    </div>
+                    <div class="carousel-item">
+                    <a href="http://rbprev.riobranco.ac.gov.br/artigo_fprev.php">
+                            <img src="images/bannersitefprev.png" alt="" class="img-fluid" />
+                    </a>
+                    </div> -->
+            <!-- <div class="carousel-item active">
+                    <a href="documentos/cartilha_reforma.pdf">
+                            <img src="images/cartilha_reforma.png" alt="" class="img-fluid" />
+                    </a>
+                    </div>-->
 
-
-                <!-- <div class="carousel-item active">
-                        <a href="https://sistema.ouvidorias.gov.br/publico/AC/RioBranco/manifestacao/RegistrarManifestacao" target="_blank">
-                        <img src="images/Banner_ouvidoria-rbr.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
-                        </a>  
-                </div> -->
+            <div class="carousel-item active">
+                <a href="http://riobranco.ac.gov.br/" target="_blank">
+                    <img src="images/prefeitura_banner.png" class="img-fluid " alt="Prefeitura de Rio Branco">
+                </a>  
             </div>
-            <!-- controles -->
-            <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#slideshow" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+
+            <div class="carousel-item">
+                <a href="sobre-o-recadastramento.php" target="_blank">
+                    <img src="images/RecadastramentoOnline.png" class="img-fluid " alt="Recadastramento Online">
+                </a>  
+            </div>
+            <div class="carousel-item">
+                <a href="http://dirf.rbprev.riobranco.ac.gov.br/sisced/" target="_blank">
+                    <img src="images/Banner_Cedula_C.png"  alt="Cedula C" class="img-fluid" />
+                </a>
+            </div>
+            <div class="carousel-item">
+                    <img src="images/felizfestas.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
+             
+            </div> 
         </div>
-        <!-- FIM SLIDE-->
-    </section>
+        <!-- controles -->
+        <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slideshow" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!-- FIM SLIDE-->
+</section>
     
     <!-- Fim carousel -->
     <br>
-    <h3 class='text-center'>Serviços</h3>
+    <h3 class='text-center'>SERVIÇOS</h3>
     <main class="page-contents">
         <div class="cards">
             <div class="contents">
@@ -152,12 +149,8 @@ include("cabecalho.php");
     <section>
         <div class="bg-image" style=" background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/background_canais.png');
              position:relative;">
-            <div class="container">
-                <br>
-                <div class="title text-center">
-                    <h2 class="mb-10 text-white">Canais de Comunicação</h2>
-                </div>
-
+            <div class="container">               
+                
                 <div class="row">
                     <p align="justify" style="text-indent:10mm;">
                     <div class="container">
