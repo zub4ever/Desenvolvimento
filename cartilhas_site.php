@@ -485,7 +485,7 @@
                                     <table style="width:100%">
                                         <tbody align="justify">
                                             <tr>
-                                                <th style="width:100%">DOCUMENTOS</th>
+                                                <th  align = "center" style="width:100%">DOCUMENTOS</th>
                                             </tr>
                                             <tr>
                                                 <td>

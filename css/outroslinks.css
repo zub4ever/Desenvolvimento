@@ -32,12 +32,12 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: box;
-  display: flex;
-  -webkit-animation: marquee 10s linear infinite running;
-  -moz-animation: marquee 10s linear infinite running;
-  -o-animation: marquee 10s linear infinite running;
-  -ms-animation: marquee 10s linear infinite running;
-  animation: marquee 10s linear infinite running;
+  display: relative;
+  -webkit-animation: marquee 20s linear infinite running;
+  -moz-animation: marquee 20s linear infinite running;
+  -o-animation: marquee 20s linear infinite running;
+  -ms-animation: marquee 20s linear infinite running;
+  animation: marquee 20s linear infinite running;
 }
 .Marquee-content:hover {
   -webkit-animation-play-state: paused;

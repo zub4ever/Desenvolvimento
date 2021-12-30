@@ -8,7 +8,9 @@ include("cabecalho.php");
 
     <script src="js/index/teste.js"></script>
     <script src="js/index/teste_modal.js"></script>
-    <script src="js/index/certificados.js"></script>
+    <script src="js/index/certificados.js"></script> 
+    <script src="js/index/modal.js"></script>
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/style.css">
@@ -20,24 +22,20 @@ include("cabecalho.php");
 </head>
 <body>
     <!------ Inicio da Modal ---------->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="avisoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-fluid" src="images/comunicado_12.jpeg">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <img class="img-fluid" src="images/calendario_fim_de_ano_2021.jpg">
                 </div>
             </div>
         </div>
-    </div>
+    </div>	
     <!------ Fim Modal ---------->
     <!-- SLIDE -->
     <section class="service-area section-gap-a">
@@ -150,7 +148,13 @@ include("cabecalho.php");
     <section>
         <div class="bg-image" style=" background-image: url('http://rbprev.riobranco.ac.gov.br/images/IconsIndex/background_canais.png');
              position:relative;">
-            <div class="container">               
+            <div class="container">   
+                <br>
+                <div class="row justify-content-center  text-white">
+
+                    <h2 class="mb-10">CANAIS DE COMUNICAÇÃO</h2>
+
+                </div>
 
                 <div class="row">
                     <p align="justify" style="text-indent:10mm;">
@@ -182,7 +186,7 @@ include("cabecalho.php");
                             </div>
                             <div class="col-lg-3">
                                 <!-- card3 -->   
-                                <a href="" target="_blank" class="card-link text-dark">
+                                <a href="cartilhas_site.php" target="_blank" class="card-link text-dark">
                                     <div class="card_comunicacao">
                                         <div class="card-image_comunicacao card3"></div>
                                         <div class="card-text_comunicacao card3">
@@ -270,13 +274,19 @@ include("cabecalho.php");
                                     <img src="images/IconsIndex/rbprevnumber.png" alt="alt"/>	
                                 </div>
                                 <div class="col-lg-6 mt-2">
-                                    <hr>
+
                                     <div class="card border-primary mb-3">
-                                        <p align="justify">
-                                            O RBPREV em números traz informações sobre o Regime Próprio de Previdência do Município de Rio Branco. A publicação apresenta informações referentes às atividades desenvolvidas pelo RBPREV na gestão dos Fundos Previdenciário e Financeiro, tanto concernente às concessões dos benefícios previdenciários quanto à gestão financeira e meta atuarial.
-                                        </p>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <p align="justify">
+                                                    O RBPREV em números traz informações sobre o Regime Próprio de Previdência do Município de Rio Branco. A publicação apresenta informações referentes às atividades desenvolvidas pelo RBPREV na gestão dos Fundos Previdenciário e Financeiro, tanto concernente às concessões dos benefícios previdenciários quanto à gestão financeira e meta atuarial.
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="card bg-dark">
+                                    <hr>
+                                    <br>
+                                    <div class="card bg-info">
                                         <a href="rbprevEmNumeros.php" class="card-link">
                                             <div class="card-body text-center">
                                                 <p class="card-text"><font color="#fff">RBPREV em Números</font></p>
@@ -291,65 +301,66 @@ include("cabecalho.php");
                 </p>
                 <hr>
             </div>
+            <br>
         </div>
     </div>
     <!-- Fim -->
     <!--inICIO DO CAROUSEL -->
 
-    <section>
-        
-        <div class="container">
-            <div class="title text-center">
-                <h2 class="mb-10 text-dark">Outros Links</h2>
-            </div>         
-            <div class="row">
-                <p align="justify" style="text-indent:10mm;">
-                <div class="container">
-                    <div class="row">
-                        <div class="Marquee">
-                            <div class="Marquee-content">
-                                <div class="Marquee-tag"><a href="http://www.riobranco.ac.gov.br/">
-                                        <img src="images/IconsIndex/Frame_3.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"><a href="https://www.gov.br/trabalho-e-previdencia/pt-br">
-                                        <img src="images/IconsIndex/Group_2.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"><a href="https://www.riobranco.ac.leg.br/">
-                                        <img src="images/IconsIndex/Group_3.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"><a href="http://www.diario.ac.gov.br/">
-                                        <img src="images/IconsIndex/Group_4.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"><a href="https://cadprev.previdencia.gov.br/Cadprev/pages/index.xhtml">
-                                        <img src="images/IconsIndex/cadprev.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"> <a href="https://www.gov.br/inss/pt-br">
-                                        <img src="images/IconsIndex/inss.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"> <a href="https://tceac.tc.br/">
-                                        <img src="images/IconsIndex/tribunalcontas.png" alt="alt"/>
-                                    </a>
-                                </div>
-                                <div class="Marquee-tag"><a href="http://www.rbprev.riobranco.ac.gov.br/sistemas.php">
-                                        <img src="images/IconsIndex/sistemas.png" alt="alt"/>
-                                    </a>
-                                </div>
+    <div class="container">
+        <div class="card text-dark">
+            <div class="container" style="padding-bottom: 20px;">
+                <div class="row justify-content-center">
 
+                    <h2 class="mb-10">Canais de Comunicação</h2>
+
+                </div>
+                <div class="row">
+
+
+
+                    <div class="Marquee">
+                        <div class="Marquee-content">
+                            <div class="Marquee-tag"><a href="http://www.riobranco.ac.gov.br/">
+                                    <img src="images/IconsIndex/Frame_3.png" alt="alt"/>
+                                </a>
                             </div>
-                        </div>   
-                    </div>
-                    </p>
-                    <hr>
+                            <div class="Marquee-tag"><a href="https://www.gov.br/trabalho-e-previdencia/pt-br">
+                                    <img src="images/IconsIndex/Group_2.png" alt="alt"/>
+                                </a>
+                            </div>
+                            <div class="Marquee-tag"><a href="https://www.riobranco.ac.leg.br/">
+                                    <img src="images/IconsIndex/Group_3.png" alt="alt"/>
+                                </a>
+                            </div>
+                            <div class="Marquee-tag"><a href="http://www.diario.ac.gov.br/">
+                                    <img src="images/IconsIndex/Group_4.png" alt="alt"/>
+                                </a>
+                            </div>
+                            <div class="Marquee-tag"><a href="https://cadprev.previdencia.gov.br/Cadprev/pages/index.xhtml">
+                                    <img src="images/IconsIndex/cadprev.png" alt="alt"/>
+                                </a>
+                            </div>
+                            <div class="Marquee-tag"> <a href="https://www.gov.br/inss/pt-br">
+                                    <img src="images/IconsIndex/inss.png" alt="alt"/>
+                                </a>
+                            </div>
+                            <div class="Marquee-tag"> <a href="https://tceac.tc.br/">
+                                    <img src="images/IconsIndex/tribunalcontas.png" alt="alt"/>
+                                </a>
+                            </div>
+                            <div class="Marquee-tag"><a href="http://www.rbprev.riobranco.ac.gov.br/sistemas.php">
+                                    <img src="images/IconsIndex/sistemas.png" alt="alt"/>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>   
+
                 </div>
             </div>
         </div>
-    </section>
+    </div> 
 
 
 
@@ -361,7 +372,7 @@ include("cabecalho.php");
 
         <div class="content-wrapper">
             <div class="title text-center">
-                <h2 class="mb-5 text-dark">Notícias</h2>
+                <h2 class="mb-5 text-dark">NOTÍCIAS</h2>
             </div>
             <div class="container">
                 <div class="row" data-aos="fade-up">
@@ -383,9 +394,9 @@ include("cabecalho.php");
                         </a>
                     </div>
                     <div class="col-xl-4 stretch-card grid-margin">
-                        <div class="card bg-dark text-white">
+                        <div class="card bg-primary text-white">
                             <div class="card-body">
-                                <h2>Mais noticias</h2>
+                                <h2 class = 'text-center'>MAIS NOTÍCIAS</h2>
 
                                 <div
                                     class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between"
