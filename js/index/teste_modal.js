@@ -7,7 +7,7 @@ $(document).ready(function () {
             type: 'variablepie'
         },
         title: {
-            text: 'Resumo da folha de pagamento - Novembro 2021'
+            text: 'Resumo da folha de pagamento - Dezembro 2021'
         },
         tooltip: {
             headerFormat: '',
@@ -23,15 +23,15 @@ $(document).ready(function () {
                 data: [{
                         name: 'Aposentados FPREV',
                         y: 810,
-                        z: '3.520.595,34'
+                        z: '3.157.743,59'
                     }, {
                         name: 'Aposentadorias FFIN',
                         y: 18,
                         z: '196.102,49'
                     }, {
                         name: 'Pensões FPREV',
-                        y: 157,
-                        z: '362.851,80'
+                        y: 163,
+                        z: '387.557,04'
                     }, {
                         name: 'Pensões FFIN',
                         y: 9,
@@ -47,7 +47,7 @@ $(document).ready(function () {
         },
 
         title: {
-            text: 'Total Novembro 2021'
+            text: 'Total Dezembro 2021'
         },
 
         xAxis: {
@@ -59,8 +59,8 @@ $(document).ready(function () {
                 allowPointSelect: true,
                 keys: ['name', 'y', 'selected', 'sliced'],
                 data: [
-                    ['Total FPREV', 3883447.14, false],
-                    ['Total FFIN', 239206.79, false]
+                    ['Total FPREV', 3545300,63, false],
+                    ['Total FFIN', 239206.76, false]
                 ],
                 showInLegend: true
             }]
@@ -99,10 +99,10 @@ $(document).ready(function () {
 
         series: [{
                 name: 'Aposentadorias FPREV',
-                data: [43292723.00]
+                data: [46838023.63]
             }, {
                 name: 'Aposentados FFIN',
-                data: [3113141.00],
+                data: [3352347.76],
                 yAxis: 1
             }]
 

@@ -94,7 +94,7 @@ include("cabecalho.php");
                     </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/felizfestas.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
+                    <img src="images/felizanonovo.jpeg"  class="img-fluid " alt="Prefeitura de Rio Branco">
 
                 </div> 
             </div>
@@ -228,6 +228,9 @@ include("cabecalho.php");
     <script src="js/index/teste_modal.js"></script>
     <link rel="stylesheet" href="js/vendor/highcharts/css/highcharts.css">
     <div class="container">
+        <div class="title text-center">
+                <h2 class="mb-10 text-dark">FOLHA DE PAGAMENTO</h2>
+            </div>  
         <div class="row">
             <div class="col-lg-5 py-2">
                 <figure class="highcharts-figure">
@@ -312,7 +315,7 @@ include("cabecalho.php");
             <div class="container" style="padding-bottom: 20px;">
                 <div class="row justify-content-center">
 
-                    <h2 class="mb-10">Canais de Comunicação</h2>
+                    <h2 class="mb-10">OUTROS LINKS</h2>
 
                 </div>
                 <div class="row">
@@ -462,7 +465,7 @@ include("cabecalho.php");
     <!-- FIm -->
     <!-- incio  -->
     <div class="title text-center">
-        <h2 class="mb-10 text-dark">Certificados</h2>
+        <h2 class="mb-10 text-dark">CERTIFICADOS</h2>
     </div>
     <div class="containerCarousel">
 
