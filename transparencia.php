@@ -272,6 +272,19 @@
                 </div>
             </a>
         </div>
+         <div class="col-sm-12 col-lg-4 col-md-6">
+            <a href="certidao_ctc.php" class="card-link">
+                <div class="cartone area-comunicacao cartone-x text-white" style="height: 150px; padding: 20px;">
+                    <div class="ml-auto mt-auto mr-auto mb-auto">
+                        <div style="text-align:center"><h2><font color="#fff">Certidão de Tempo de contribuição</font></h2>
+                            <p>Clique para mais informações</p></div>
+                        <div class="ml-auto mt-auto mr-auto mb-auto">
+                                <!-- <i class="img-fot fas fa fa-bookmark" style="font-size: 60px;"></i> -->
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 <?php include("rodape.php"); ?>
