@@ -1,5 +1,4 @@
 
-
 .containerCarousel {
   position: relative;
   width: 100%;
@@ -65,7 +64,7 @@
   font-size: 12px;
   margin: 15px 0 0 0;
   text-align: center;
-  color: #3498db;
+  color: #007DC5;
 }
 .element-card .front-facing .atomic-number {
   position: absolute;

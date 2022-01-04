@@ -13,7 +13,6 @@
     <script src="js/index/acordeons.js"></script>
 </head>
 <body>
-
     <div class="container">
         <br>
         <div class="title text-center">

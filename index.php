@@ -28,7 +28,6 @@ query_posts('showposts=3');
             });
         }
     });
-
 </script>
 
 <div class="modal fade" id="avisoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -121,7 +120,7 @@ query_posts('showposts=3');
                 </a>
             </div>
             <div class="carousel-item">
-                    <img src="images/felizfestas.png"  class="img-fluid " alt="Prefeitura de Rio Branco">
+                    <img src="images/anonovo.jpeg"  class="img-fluid " alt="Prefeitura de Rio Branco">
              
             </div> 
         </div>

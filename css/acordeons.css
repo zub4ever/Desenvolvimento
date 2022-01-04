@@ -39,7 +39,7 @@ liRules:first-child {
 }
 
 .contentRules p {
-  background: #f8f8f8;
+  background: #fff;
   box-sizing: border-box;
   padding: 16px;
 }

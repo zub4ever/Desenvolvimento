@@ -45,7 +45,7 @@
 }
 @media (min-width: 600px) {
   .cards {
-    height: 200px;  
+    height: 220px;  
   }
 }
 .cards:before {
@@ -111,7 +111,7 @@
 }
 
 .copys {
-  font-family: var(--font-serif);
+  
   font-size: 1.125rem;
   font-style: bold;
   line-height: 1.35;
